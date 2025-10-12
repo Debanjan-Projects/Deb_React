@@ -1,0 +1,4021 @@
+//React is a JavaScript library developed by Facebook for building user interfaces, especially single-page applications (SPAs).
+
+It’s component-based, which means your UI is built using small, reusable pieces called components.
+
+
+//react roabmap...     
+
+
+//why to leran react..
+
+//React is a powerful and in-demand JavaScript library developed by Meta (Facebook) for building fast, dynamic user interfaces using a component-based architecture. It enables developers to create reusable UI components, making code more organized and scalable. With its virtual DOM, React offers high performance, especially in single-page applications. It has a vast ecosystem, strong community support, and is widely used in the industry. Learning React also opens doors to mobile app development through React Native and is foundational for working with modern frameworks like Next.js. Overall, React is beginner-friendly, career-boosting, and essential for modern web development.
+
+//hype,job ,trend, build ui.
+//makes easy to manage and build complex  frontend.
+
+//ak button click karne mein do or tin place mein changes ho raha hian.
+
+*************************************************************
+//when should i leran react.
+
+//HTML – Structure of web pages
+
+CSS – Styling web pages
+
+JavaScript (ES6+) – Core programming logic, including:
+
+Variables, functions, loops, conditions
+
+Arrays & objects
+
+Arrow functions (=>)
+
+DOM manipulation
+
+let, const, map(), filter(), forEach(), etc.
+
+
+//after mastering in js.
+
+//most project don't need  react in initial phase..
+
+****************************************************************************************
+//why react was create ..
+
+//React was created by Jordan Walke, a software engineer at Facebook, and was first released in 2013. It was developed to solve real problems Facebook faced with building and maintaining complex, interactive user interfaces.
+
+//React was created by Facebook to efficiently build fast, scalable, and maintainable user interfaces using a component-based and declarative approach. It solved performance issues and code complexity that came with traditional JavaScript frameworks.
+
+//facebook ke andar tha ak message problem known as fantum message problem (ghost message problem) .
+
+//facebook main message padhne ke bad bhi nahi notification nahi jha raha tha..
+
+
+
+//state control karta hain js..
+//ehh state keya hain ----state ak fansi num deya jata hain sari variable ke liye .
+//jho message ahh raha hain ohh kaha store ho raha hain ,kishi varibale kki state mein ho raha hain.
+
+//ul manage karta hian dom.
+//dom or js ka state ke bich mein hona hain bat, or dono hona chaiye tha sync but ehh dono nahi ho rahe the .
+
+//eha she react shuru ho rahi thi..
+
+*************************************
+
+//khan Academy ->Unplash..powerfull website ..
+//react library consistency kam karta hain ..
+
+*************************************
+
+//React learning process ..
+
+//1. go in depth method.
+//Bable,  Fibre , Virtual Dom,  Diffeng algorithm , hydresation,     treeshaking key ahota ,hain..
+
+//2. by making project .
+
+//background changer ,todo ,calculator, github api,
+
+************************************************************************
+//React is a library..
+
+//difference between framewwork and library..
+
+//
+
+//framework - militrary//rule ko jada dekha jat hain ,keya name hoga file ka ,ishi name she hi file banegi.ishi folder ki aandar hi file hogi.dat aishi ta hi fetch hoga ..koi exception nahi hoga ...
+
+//next js , Django  framework..
+
+//library- cooldude hain..
+//freedom jada milti ..choti hain,concept thora kam hota hhain ishki andar ..
+
+
+//What is a Framework?
+A framework is a complete structure that provides a foundation to build software. It decides how your code should be written, organized, and executed. You plug your code into the framework, and the framework controls the overall flow.
+
+🔄 Key Concept: Inversion of Control
+In a framework, you don’t call it — it calls you. It provides rules, structure, and lifecycle.
+
+✅ Examples of Frameworks:
+Django (Python): For web development using the MVT pattern
+
+Spring Boot (Java): For building back-end APIs and enterprise apps
+
+Angular (TypeScript): For building dynamic single-page applications
+
+Flutter (Dart): For cross-platform mobile apps.
+
+
+//What is a Library?
+A library is a collection of functions or tools that you can call whenever you need. You stay in control of the application, and you decide when and how to use the library.
+
+✅ Key Concept: You call the library
+You write the main code and use the library to help with tasks like calculations, API calls, DOM manipulation, etc.
+
+✅ Examples of Libraries:
+React (JavaScript): Library for building user interfaces
+
+Lodash (JavaScript): For utility functions like sorting, filtering, etc.
+
+jQuery: For DOM manipulation and event handling
+
+NumPy (Python): For numeric calculations
+
+Pandas (Python): For data analysis
+
+********************************************
+//react topics...
+
+//1.react core ..
+
+
+
+//1.[state ..and ui manupulation...     1.1jsx]
+
+//js ke andar html likh rahe hain ohi hamara jsx hain.
+
+//2.component reusability..
+
+//bar bar aki chis ko kaishe used kar sakta hain.
+
+
+//3.Reusing of component     //(props)
+
+//what is props...
+//jab hum log object create karta hain ..tab object ke andar hota hain key and value pair ..ohi ko bolta hain . property.
+
+//how to propogate change (Hooks )
+
+//usestate //useeffect .
+
+
+//react create karta hain spa (single page apllication)
+
+//react create kart ahina spa (single page apllication) its means page kabhi reload ee nahi hoga .
+
+reload nahi hoga tab to url need paddega ,agar page hi nahi reload ho raha hain to hum log new page mein jaye kaishe ,hain uha page manupulation raheta hain.
+
+//ushke liye hum logo ko router sikhna padta hain .\
+
+//router react ke functionality nahi hainn..ishh ke liye ak additional package download karna padta hian .react package.dom.
+//
+
+**************************************************************************
+//Additional addom to react.
+
+//router (react dont have router)
+//state management (react dont have state management)     / /lekin ab hain.   
+
+
+=>redux ,foolkit, zustand,context API
+
+//class based component.
+=>legacy code.
+
+//BAAS apps // backend as a service....
+
+==>social media clone,e-commers app.
+
+//firebase, superbase appwrite,
+backend as a service ka..
+sidha ee backend use kare ..
+
+..freeapi .app ..// open source by hritesh sir..
+
+
+********************************************************************
+
+
+
+//react ke bad keya kare ..
+
+//afetr leraning js ,u canswitch in the backend filled ,but if u want then u can learn react then go for backend .
+
+//react is not a commplete solution in most case.
+
+==> no seo (h1 tag utna achha she create nahi hota .browser generate karta hain html or css ko.), browser render of js, no routing.     //problems ..
+
+//framework..
+//next js , Gats by ,Remix.
+
+
+//its all about kaishe hum log raect ka journey karenge ..
+
+//**********************************************************************************************************************
+
+//web development platform independent hota hain..
+
+//ak editor chaiye jaha code run ho jaye or ak browser ho jaye jaha code execute ho jaye..
+
+
+
+//react kar neke liye keya keya chaiye .
+//node.js //react documentation.
+//react.dev.
+
+******************************************************************
+//about react..
+
+//react ak library hain ..
+
+//react===> react-dom..===>react native.
+
+//agar web site se kam karna hain to hum log used karenge react or 
+//react-dom. //react documenttation......
+
+//or agar mobile apps ke sath kam karna hain to hum used karenge 
+/// .react ke sath recat native .
+
+//
+
+
+
+
+//*********************************************************
+//react ke project baneka do or tin way hot hain. 
+
+jab app node ko install kare the to ap ke pass or ak pakage ati han ohh hain npm
+
+//npm(node package manager )//kuch library install karneke liye allow karta hhain ..
+
+
+//lekin kuch kuch time pa system mein app install nahi karna chate app direct execute karna chate hoin tab or ak pakage ati hain .
+
+//ohh hain npx(node packet executer).
+
+//npx(node package )
+
+//basic way hain react application banena ka ..ohh hain.
+
+
+//create-react-app.
+
+//react-app.-- ak utility ..
+
+//utility matlab hain ak software .
+
+//react ke project ko kaishe samjh ti hain hamesha file ko open kariye or dekhiye ki project ka name keya hain ,version keya hain,dependencies keya hain.
+
+
+
+  "name": "01basicreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": 
+  //testing library...
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    //main library.
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    //react scripts..
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"//kaise apki application first chal raha hain ,tract karn ahin ki ,record karna hain.performance.
+
+    //then we have some scripts jho project ko chala ta hain.
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
+
+  //ab isshh project ko kaishe chalaye ..
+  //npm  run start//npm start .
+  //for beginners stsrt run using run because start have some exception.
+
+
+
+  //use one time npm run build for your experience
+  //jitna bhi js ap react mein likhen ge ohh sab eha convert ho jaye ga .
+  //ehh build folder hi serve hot ahain sari user ko nahi ki src folder.
+
+  //create react app achha way nahi hain ..kiu ki ehh bohot jada time leta hhain.
+//*******************************************************************************
+
+  //so here we ued vite ...
+
+  //how install the vite ..
+
+  //all know about all of things using vite documentations .
+
+  //for install vite in our maachine ..just run a command 
+  //npm create vite@latest..
+
+  //ish project ke andar node module nahi hota hain.
+
+
+
+  //after check the create folder if there is no node module .. then we need to install the node module in the folder.
+  //check karneke liye ls command chalana hain.
+
+
+  //node module install karneke niye just run thr command 
+  //npm i ..install.
+
+  // after installation just run the command npm run dev..
+
+  //to hum log ehh sikhe ki kish tara she react ki through project banaya jata hain ..
+  
+  //or kish tara she vite ke through project banaya jata hain.
+
+  ***************************************************************************************
+
+  // difference between this two projects we also know about this hole thing s...
+
+  //main src foldar ke aanddar jho abhi used nahi kar rahe hain ohh sabhi foldar delete karneke bad 
+  //only main file are presenty in the file ...
+
+
+  //,run karaneke prayash khud she kare or ,fir terminal pe jha kke run karaiye...
+
+  //ehh hota hain react ke through project ..
+
+  ///////////////////////////////////////////////////////////////////////////////
+
+
+
+  //now we know vite ke through kaishe project banti hain.
+
+  //edhar bhi ake pehele delete karna padega then ..
+
+  //only main files are present inmn the file .
+
+
+  //do foldar ka file name hi alag hain ,ehi library hain .agar framework hota tho esh naming ke liye pura project hi crash kar jata ..
+
+**********************************************************************************
+  //koi bhi ak project she hum log start karenge ..
+  //ushme dekhenge ki.
+  //flow kaishe kam karta hain .
+  //kaha pe project kaishe introduce hota hain.
+  
+
+  //react ke project kish tara she chal te hain
+  //kish tara she project ka execution hota hain .
+  //life cyclekeya hota hoain.
+  //pehele konshi file execute hota hain.
+
+  //fir konshi file ati hain.
+  //konshi file aka ohaper manupulation karta hain.
+
+  ******************************************************************************
+
+  ....................................
+
+  //some inportant notes ,,
+
+  //jab javascript run karta hain ,ohh ekale hi run karta hain ,ushko html mein le ana hi padta hain.apko html main script  tag she call karna hi padta hain.koi exception ha ee nahi.
+
+  //basic react project jho hum ne creat react app command se banaya hain.
+
+  //node- module foldar ...jitni bhi dependency pakage.json foldar mein hain ohh sab install hone ke bad node module mein add hota hain.
+
+  //call bind sab kuch mil jata hain.
+
+  //scr ke andar do file hain ..
+  // app.js and index.js.
+
+  //gitignore mein hain keya kuch git mein push karna hain or keya nahi push karna hain.
+
+  //pkage .lock .json -eha dependnecy lockk ho jatahain ki .module srif eshi versionmein hi chalega.
+
+
+  //public-manifaest-mobile device ke liye kam ata hain. 
+  //index.html she farak padta hain ..
+  //or eha ak hi page hota hain .e
+  
+  //shi liye eshko spa bola jata hain.(single page application.)
+
+  //sara kam src aur public ehi do folder ke andar hota  hain .
+
+//in src har time index.js and app.js main hota hain ,enka name kuch bhi ho sakta hain.
+
+
+//index.js ke andar hum log do library lehh liya hain ak to ,react and reactdom,esh dono she hi sara kam hota hain.
+web ke dom ko manupulate karneke liye .
+
+//react hamari core fundation library hain,jho hamari refrence lene ke liye kam ata hain.
+
+//react dom eshka ak implementation hain web pe.
+
+//react native react ka ak implement taion hain mobile apps pe.
+
+
+//website ke andar dom hota hain ,
+
+//lekin react apna dom create karta hain ,..
+//.dom ak data stucture hota hain.
+
+
+//apna browser ka ak  dom hota hain ,,lekinn koi kishiko apna dom banane ke liye nahi mana kar raha hain..
+
+//so react apna dom create karta hain .jishko hum log  vartual dom  keheta hain or jishko main dom she compare kara jata hain.
+
+//ki kitna unke bitch difference hain .fir main dom ko ohi o0hi change klarta hain jho jho jarurat padta hain.
+
+
+
+//ushhh reactdom ke andar ak method hota hain create root...
+
+
+//leki  root kaha per banaye..
+
+//elemeny search kara jishki id root hain ....
+
+
+//reference apne store kar diya ak variable ke andar..
+
+
+
+
+//render karo..
+
+//app ko remder karo ,
+
+//ahi ak sabshe bara power deta hai react jsx ki power,
+
+//javascript ki through ap html ko render kar sakte hain.jsx ohh almost html ke jaishe hi dakta hian..
+
+//customs tags bana paooo.
+
+
+//custom tags ahh kaha she ...
+
+
+//hum ne dekha hum go srif root pein  render karaya app,,
+
+//lekin ehh app hota keya hain.
+
+//app ak normal function hota hain jho ak html ko return karta hain or just mein fnction ko export kara hain. 
+
+
+
+
+//so react hum logo ko ak interesing syntax diya hain ki ap function lo, or ushh function ke andar app html ko return kar do aur main  ushh html ko rendar kara dunga .
+
+//to hamari js ke throuh html likh pa raha hain..
+
+//pprogramming capability ahh chuka hain html ke andar.
+
+//1. questionhain ki (html page ke nadr hum log js ko load kara hain eya ..hum to nahi kiya fir ehh js foldar aye kahashee.)
+
+//see all thinf in pakage.json mein.
+
+//jab app create react she react bana rahi hain,to react aur react dom to reheta hi hain aur usshke sath script bhi hota hain.aur ehi react script index.html ke anadar hi index .js file load karta hain..
+
+*************************************************************************************************
+
+///ap jata hain vite ke andar ..
+
+//lekin jab pakage.json check kara jayega udhar hota hain.(react aur react dom).
+
+//ehhh script nahi diya hain.
+
+//to ish mein jho index file ke andarr js inject karega ohh kon kaarega?
+
+//eha index.html bahar hota hain..
+
+
+// <script type="module" src="/src/main.jsx"></script> directly inject kara diay ..
+
+
+//ehh thora lite weight  hain...
+
+//keya app ki andar bhi render kar sakta hain.?????
+
+//hum logo ko eha hi error milta hain jab hum log .  
+
+//ak new file craete karke new function banakar ,,
+
+//ohh function render karne jata hain to ..
+
+
+
+
+
+
+//ehh folder create kara hain vite ki through beacuse vite ki kuch rules or regulation hain...
+
+
+//hook.js:608 The tag <chai> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.
+
+//uppercase letter. //uppercase mein pure tag name ko change kkarna hain..
+
+
+// return (
+
+  //jab ehh  rendar kar rahe the tab ehh jho html ke nadar content likha ohh delete kiu kia ...
+
+  //uha ne Deb hi kiuu likh ..eha ata hain jsx ka content ....
+
+<Deb/>
+// {/* <h1>Chai aur react</h1>  */}
+//here we got an error. ki javascript ki ahh jsx hain ehh rapped hona hain ak enclosing tag mein ,
+
+//ap ak element export kar sakta hoin.
+  )
+  
+
+  //problem solve --- ishko div bana do....ehi tha problem ka solution.
+
+
+
+ 
+
+
+<>
+<Deb/>
+<h1>Chai aur react< </h1>
+<p>test para</p> 
+</>
+
+
+ // ishko fragment kehetahain.
+// eha bhi problem hoga .
+
+
+//create react app se same kam karta hain..
+
+********************************************************************************************
+
+//antar keya ata hain ohi dekhte hain.
+
+
+//ap chaiye vite se kariya eya react se kariye all time component ka name capitalize rakhna hain.
+////hook.js:608 The tag <chai> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.
+
+//uppercase letter. 
+
+
+//uppercase mein pure tag name ko change kkarna hain..
+
+//ap ka file ke name upper case mein rakha to  bhi koi problem nahi hain..error nahi deta hain.
+
+//kuch libary ap ko force karegi  component ke nam jsx rakhe ...agar file ke andar koi html file return nahi ho raha hain ohh unka name js hi thik hain.
+
+//lekin agar html return hoya to jsx hi rakhe ...depend karta hain ap konshi libeary used kar raha hain./.
+
+
+//behind the sence keya hota hain ..
+
+//eror kaha atio hain ..
+
+//jho apna browser dom create karta hain.. oshe hi react apna ak dom create karta hain por rakhta bhi hain ..jha she page kaise update hota hain eshob dekhi jata hain..
+
+//ap ak hi element ko rakhta hain eshi liye singler page qapplication boplta hain ..html main ak hio div hota hain .
+
+//ushi page ke andar she chiso ko its means component ko insert kar rah ahin hata raha hain .inject kar rah a hian..
+
+//userv ko feel diya jatta hain ap contact page mein ho ..home page mein ho....
+
+
+//error ko dell kaishe kare ,ehh samajhna padta hain..
+
+
+
+//******************************************************************************************
+
+//hum log khud ka ak react elemet banake dekhenge......
+
+//a basic version for ,understand../..
+
+
+
+//do hi chis  thi ki ak to 1. container lo ushme ak root element ko query karke utha liya .
+
+//then jarurat tha ak render method jho ki element ko leh or ak container ke andar inject kar de,
+
+//hame dekna thi react ke element kaise kam kare ,to hum logo ko ohh dekhni thi lekin ohh hum logo ke pass nahi thi ,
+
+
+
+//to hum log apne ap hi ak react element bana liya . 
+
+//const reactElement = {
+    type: 'a',
+    props: {//ehh ak object hota hain ..ish ke andar ap jitni chaiye  property  lekh /de sakta hain.
+        href:'https://google.com',
+        target: '_blank'
+
+    },
+
+    Children:'click me to visit google'
+}
+
+
+//do approach se hum log banaya..
+
+//1.basic approach ak ak attribute set kkar rahe hain..
+//2.ethora modular approach nahi hain to hum ne thora loop lagake dekh liya .dom elemet ko hum ne repeat kara diya .
+
+//ehh tha hum logo ka custom render method ,ish method ke andar jabbhi mujhe pass karoge ishh sysntax mein pass karoge.
+
+//fir hum log geya tha main.jsx mein ..uha ki app.jsx ak method hain to fir hum log keya eha per method likh sakta hain.
+
+//fir hum ne kaara ak method kaishe likha jata hain ,or kaishe execute kara jata hain.
+
+//end of the day react bhi ak tree structure ee banate hain.or ush ko finally inject karti hain, mene socha ki hum log mera element bhi inject kar sakta huin lekin ohh nahi chala ..
+
+//create another element karke pura html de diya tab chala raha tha ..
+
+//fir mera element mein keya problem tha ,,ki mera elemet mein jho key value or prop diya tha ohh mere man she diya tha.or man she banaya huya chis to react mein nahi chalegi.
+
+
+//to mene ak method used kiya jho name hain react.create element.jho hamesha khud ee inject ho jata hain ,kon inject karta hain ....
+
+
+////////////////////////////////////////
+//bable inject karta hain ehhh.
+
+
+//const reactElement = React.createElement(
+    //ehh bhi ak object leta hain lekin kish tara she deta hain ehh bhi pre define hokar rakhha hain.
+    'a',
+    {
+        href:'https://google.com',target:'_blank' //ehh ak object hota hain.setattribute hota hain lekin nam nahi deta hain humlog.
+    },
+
+    'click me to  visit google',
+    anotheruser 
+    //app eha per aka if else nahi likh pate kiu ki ehh evaluated expression hain.
+
+    //  jaha hum log variabkle ko injewct karta huye dekhe ....
+)
+
+//behind the sence bable sab kuch inject karta hain.
+
+//ap jsx ko directly call kar sakta hoin..
+
+
+//// import { jsx as _jsx}  from "react/jsx-dev-runtime.js" ehh kiya jh a sakta hain ...ehh open sorce hain.
+ 
+
+ //https://github.com/facebook/react ---source link..
+
+ //1.jsx  ko dekha 
+ //2. custom react banana dekha 
+ //3.repositiry padna sikha .
+ //4. create element sikha ..
+
+
+
+
+ //*****************************************************************************************
+                                                                                        
+
+ //why we need to learn a projects.
+
+ //create a project one button se value up nad one button se value down hoga ..
+
+ //now create a project ..
+
+ //by using vite .
+
+
+
+   ////////////////////////////////////////////////////////////
+
+
+ //proble ahh rahi hain ui  updation mein ,,ehi pe react ke major power ahh rahi hain.
+
+ //react react karta hain har place mein.
+
+ //eha react mein problem hota hain..
+ //to ehh problem solved karneke liye reaact ne kaha ki app variable update karo kaha par bhi karon lekin agar ui per update hoga then i will control the hole game .
+
+ //kkuch methods deta huin hoocks bolte hain ushko ,or ush hoocks ke through ee data update hoga ..
+
+     ///////////////////////////////////////////////
+
+
+ // useContext
+ //useState
+ //useReducer
+ //useRef
+ // useEffect
+ //useInsertionEffect
+
+ //those are types of hoocks ....
+
+
+ //hhar ak hoocks ka ak job hain ak special job hain,ki main itna hi kam karung ga .
+
+ //ak taxt ak ki function ke pass assigning hoin.
+
+
+  //ki ui updation ko react control karta hain.
+
+  //hoocks ko padna bhi ana chiye or inka used bhi ana chaiye .
+
+    ///////////////////////////////////////////////////////////////
+
+
+  //hoocks ko used kaishe karta hain.
+
+
+
+
+
+    /////////////////////////////////////////////
+
+
+   //useState - ehh hoocks state ko change karneke liye responsible hain.
+   //ishh change ko propagate kara jata hain ap ke url ke andar its means dom ke andar... ...
+
+
+   //defalut value ak variable ke andar keya de sakta hain.
+
+   //true 
+   //false
+   //" " empty sorting
+   //"dEbanjan"
+   //[] //empty array 
+   //object {}
+   //
+   
+
+
+
+//usestate se har time  do chis a milta hain array ke format mein ..
+//ish liye apko aisha hi lekhna padega.
+
+
+
+[0: counter ,1 : setCounter]
+//koi bhi name app deh sakta hain ..
+
+//counter ak variable hain ...aur 
+//setcounter ak function hain 
+//jho variable ko update kerneke liye used kara jata hain.
+
+
+
+//jab react module dekehega ki app counter update kiya hain ,react module app ki code mein(pure web page mein) jitna bhi counter hain sob ko update kar dega...
+
+
+
+//agar counter eshi update nahi hoga to counter kaishe update hoga 
+
+//just call the setcounter(yea jho bhi ap name diya hain method ka ushko just call ki jiye then ushki andar new value rakh dijiye..)
+
+
+//const variable ko let karna padega ...
+
+
+
+//set conter lete hain new value ki ,,new value bataoo ki ish counter ke andar keya dalu.
+
+
+
+
+
+//setcounter ka name kuch bhi humlog rakh sakta hain.
+
+//ehh srif ak reference holdar hain..
+
+   ///////////////////////////////////////////////////////////////
+
+//changes propogate kaishe kara jata hain react ke andar.
+
+//hoocks ko use kaishe karna hain ,uskho value kaishe dena hain,
+
+//jho function declare kare hain library bananeke time ushka mecanism keya hain.
+
+//ak function hain to function kuch expect kar raha hain ki parameter pass karo,or value jab bapas ahh raha hain tab ap ko awarness rehena padega ki value kish tara she ahh rahi hain,
+
+//array hoga ,method ayega ,eya kuch variable ayega ..
+
+esob ...
+
+
+assingment  ...
+
+value o she niche nahi jana hain.
+add value ke adnar 20 ke upor nahi jaye..
+
+
+
+//***********************************************************************************************
+
+//vartual dom ke ..
+//what is virtual dom..
+
+//ab virtual dom nahi chalta hain..
+
+//createroot ------------ method behind the sence ap ke liye ak pura ke pura dom like structure create karta hain..
+
+//jaishe browser ke pass dom hota hain.oshe hi create root bhi ak dom create karta hain.
+
+//main dom ko or apne dom ko compare karta hain. uni chis ko update kata hain jho ki actully mein ui mein update huye hain..
+
+//lekin apna browser pura dom ko remove karta hain or fir pura dom ko repaind karta hain.ishiko page reload keheta hain..
+
+//web stucture  do barashe taiyar ho raha hain.
+
+
+//vertual dom ..mein ap pura ke pura dom ko track kar sakta hoin pura tree structure mein,or jho jho value change huyi hain ushko nikal ke firshe laga deta hain..
+
+//js ak apna pur atrack rakhta hain,ak virtual tree dom banata hain or ushmei update karta hain.
+
+//kuch element depend hain network ke upor... ap jabhi koi element ko update karne jate ho ki network ki update ahh jata hain..
+
+//ap emiditly update na karo ,kuch algorithm lagake kuch optimizely update karo..
+
+
+
+//documentation- react fiber..
+//
+https://github.com/acdlite/react-fiber-architecture source url///////
+
+
+
+//React Fiber Architecture:
+
+
+// Introduction:
+
+//React Fiber is an ongoing reimplementation of React's core algorithm. It is the culmination of over two years of research by the React team.
+
+//The goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames.
+
+//Other key features include the ability to pause, abort, or reuse work as new updates come in; the ability to assign priority to different types of updates; and new concurrency primitives.
+
+
+
+//hydration concept ..apka layout ahh chuka hain lekin js add nahi huya hain, jab js add hota hain ushko hydration process keheta hain.
+
+
+
+
+// About this document:
+
+//Fiber introduces several novel concepts that are difficult to grok solely by looking at code. This document began as a collection of notes I took as I followed along with Fiber's implementation in the React project. As it grew, I realized it may be a helpful resource for others, too.
+
+//I'll attempt to use the plainest language possible, and to avoid jargon by explicitly defining key terms. I'll also link heavily to external resources when possible.
+
+
+//Please note that I am not on the React team, and do not speak from any authority. This is not an official document. I have asked members of the React team to review it for accuracy.
+
+//This is also a work in progress. Fiber is an ongoing project that will likely undergo significant refactors before it's completed. Also ongoing are my attempts at documenting its design here. Improvements and suggestions are highly welcome.
+
+//My goal is that after reading this document, you will understand Fiber well enough to follow along as it's implemented, and eventually even be able to contribute back to React.
+
+
+
+
+///Prerequisites:
+//I strongly suggest that you are familiar with the following resources before continuing:
+
+//React Components, Elements, and Instances - "Component" is often an overloaded term. A firm grasp of these terms is crucial.
+
+//Reconciliation - A high-level description of React's reconciliation algorithm.
+//React Basic Theoretical Concepts - A description of the conceptual model of React without implementation burden. Some of this may not make sense on first reading. That's okay, it will make more sense with time.
+
+//React Design Principles - Pay special attention to the section on scheduling. It does a great job of explaining the why of React Fiber.
+
+
+
+//What is reconciliation?
+//reconciliation:
+
+//The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+
+//ak hain browser wala tree 
+//or ak hain react tree jho aya hain createelement root she...
+
+
+
+
+
+//update:
+//A change in the data used to render a React app. Usually the result of `setState`. Eventually results in a re-render.
+
+//The central idea of React's API is to think of updates as if they cause the entire app to re-render. This allows the developer to reason declaratively, rather than worry about how to efficiently transition the app from any particular state to another (A to B, B to C, C to A, and so on).
+
+//Actually re-rendering the entire app on each change only works for the most trivial apps; in a real-world app, it's prohibitively costly in terms of performance. React has optimizations which create the appearance of whole app re-rendering while maintaining great performance. The bulk of these optimizations are part of a process called reconciliation.
+
+//Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM."
+
+
+ //A high-level description goes something like this: when you render a React application, a tree(js ke andar ak tree banate hain ehh ohi tree ehh hain.)
+ 
+  of nodes that describes the app is generated and saved in memory. This tree is then flushed to the rendering environment — for example, in the case of a browser application, it's translated to a set of DOM operations. When the app is updated (usually via setState), a new tree is generated. The new tree is diffed with the previous tree to compute which operations are needed to update the rendered app.
+
+
+
+//Although Fiber is a ground-up rewrite of the reconciler, the high-level algorithm described in the React docs will be largely the same. The key points are:
+
+//Different component types are assumed to generate substantially different trees. React will not attempt to diff them, but rather replace the old tree completely.
+Diffing of lists is performed using keys. Keys should be "stable, predictable, and unique."
+
+
+
+
+//Reconciliation versus rendering:
+
+//The DOM is just one of the rendering environments React can render to, the other major targets being native iOS and Android views via React Native. (This is why "virtual DOM" is a bit of a misnomer.)
+
+//The reason it can support so many targets is because React is designed so that reconciliation and rendering are separate phases. The reconciler does the work of computing which parts of a tree have changed; the renderer then uses that information to actually update the rendered app.
+
+//This separation means that React DOM and React Native can use their own renderers while sharing the same reconciler, provided by React core.
+
+//Fiber reimplements the reconciler. It is not principally concerned with rendering, though renderers will need to change to support (and take advantage of) the new architecture.
+
+
+
+//Scheduling:
+//scheduling:
+//the process of determining when work should be performed.
+work
+//any computations that must be performed. Work is usually the result of an update (e.g. setState).
+//React's Design Principles document is so good on this subject that I'll just quote it here:
+
+
+
+
+//The key points are:
+
+//In a UI, it's not necessary for every update to be applied immediately; in fact, doing so can be wasteful, causing frames to drop and degrading the user experience.
+
+//Different types of updates have different priorities — an animation update needs to complete more quickly than, say, an update from a data store.
+
+//A push-based approach requires the app (you, the programmer) to decide how to schedule work. A pull-based approach allows the framework (React) to be smart and make those decisions for you.
+
+//React doesn't currently take advantage of scheduling in a significant way; an update results in the entire subtree being re-rendered immediately. Overhauling React's core algorithm to take advantage of scheduling is the driving idea behind Fiber.
+
+
+
+
+
+//The key points are:
+
+//In a UI, it's not necessary for every update to be applied immediately; in fact, doing so can be wasteful, causing frames to drop and degrading the user experience.
+
+//Different types of updates have different priorities — an animation update needs to complete more quickly than, say, an update from a data store.
+
+// A push-based approach requires the app (you, the programmer) to decide how to schedule work. A pull-based approach allows the framework (React) to be smart and make those decisions for you.
+
+//React doesn't currently take advantage of scheduling in a significant way; an update results in the entire subtree being re-rendered immediately. Overhauling React's core algorithm to take advantage of scheduling is the driving idea behind Fiber.
+
+//Now we're ready to dive into Fiber's implementation. The next section is more technical than what we've discussed so far. Please make sure you're comfortable with the previous material before moving on.
+
+
+
+
+
+
+//What is a fiber?
+//We're about to discuss the heart of React Fiber's architecture. Fibers are a much lower-level abstraction than application developers typically think about. If you find yourself frustrated in your attempts to understand it, don't feel discouraged. Keep trying and it will eventually make sense. (When you do finally get it, please suggest how to improve this section.)
+
+//Here we go!
+
+//We've established that a primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to
+
+
+
+//pause work and come back to it later.
+
+//assign priority to different types of work.
+
+//reuse previously completed work.
+
+//abort work if it's no longer needed.
+//In order to do any of this, we first need a way to break work down into units. In one sense, that's what a fiber is. A fiber represents a unit of work.
+
+
+
+
+//To go further, let's go back to the conception of React components as functions of data, commonly expressed as
+
+//v = f(d)
+//It follows that rendering a React app is akin to calling a function whose body contains calls to other functions, and so on. This analogy is useful when thinking about fibers.
+
+//The way computers typically track a program's execution is using the call stack. When a function is executed, a new stack frame is added to the stack. That stack frame represents the work that is performed by that function.
+
+//When dealing with UIs, the problem is that if too much work is executed all at once, it can cause animations to drop frames and look choppy. What's more, some of that work may be unnecessary if it's superseded by a more recent update. This is where the comparison between UI components and function breaks down, because components have more specific concerns than functions in general.
+
+//Newer browsers (and React Native) implement APIs that help address this exact problem: requestIdleCallback schedules a low priority function to be called during an idle period, and requestAnimationFrame schedules a high priority function to be called on the next animation frame. The problem is that, in order to use those APIs, you need a way to break rendering work into incremental units. If you rely only on the call stack, it will keep doing work until the stack is empty.
+
+//Wouldn't it be great if we could customize the behavior of the call stack to optimize for rendering UIs? Wouldn't it be great if we could interrupt the call stack at will and manipulate stack frames manually?
+
+//That's the purpose of React Fiber. Fiber is reimplementation of the stack, specialized for React components. You can think of a single fiber as a virtual stack frame.
+
+//The advantage of reimplementing the stack is that you can keep stack frames in memory and execute them however (and whenever) you want. This is crucial for accomplishing the goals we have for scheduling.
+
+//Aside from scheduling, manually dealing with stack frames unlocks the potential for features such as concurrency and error boundaries. We will cover these topics in future sections.
+
+//In the next section, we'll look more at the structure of a fiber.
+
+
+
+
+
+
+///Structure of a fiber
+Note: as we get more specific about implementation details, the likelihood that something may change increases. Please file a PR if you notice any mistakes or outdated information.
+
+//In concrete terms, a fiber is a JavaScript object that contains information about a component, its input, and its output.
+
+//A fiber corresponds to a stack frame, but it also corresponds to an instance of a component.
+
+//Here are some of the important fields that belong to a fiber. (This list is not exhaustive.)
+
+
+
+
+//type and key
+
+//The type and key of a fiber serve the same purpose as they do for React elements. (In fact, when a fiber is created from an element, these two fields are copied over directly.)
+
+//The type of a fiber describes the component that it corresponds to. For composite components, the type is the function or class component itself. For host components (div, span, etc.), the type is a string.
+
+//Conceptually, the type is the function (as in v = f(d)) whose execution is being tracked by the stack frame.
+
+//Along with the type, the key is used during reconciliation to determine whether the fiber can be reused.
+
+//child and sibling
+These fields point to other fibers, describing the recursive tree structure of a fiber.
+
+//The child fiber corresponds to the value returned by a component's render method. So in the following example
+
+//function Parent() {
+  return <Child />
+}
+
+
+//The child fiber of Parent corresponds to Child.
+
+//The sibling field accounts for the case where render returns multiple children (a new feature in Fiber!):
+
+function Parent() {
+  return [<Child1 />, <Child2 />]
+}
+The child fibers form a singly-linked list whose head is the first child. So in this example, the child of Parent is Child1 and the sibling of Child1 is Child2.
+
+//Going back to our function analogy, you can think of a child fiber as a tail-called function.
+
+
+
+
+//return
+
+//The return fiber is the fiber to which the program should return after processing the current one. It is conceptually the same as the return address of a stack frame. It can also be thought of as the parent fiber.
+
+//If a fiber has multiple child fibers, each child fiber's return fiber is the parent. So in our example in the previous section, the return fiber of Child1 and Child2 is Parent.
+
+
+
+//pendingProps and memoizedProps
+Conceptually, props are the arguments of a function. A fiber's pendingProps are set at the beginning of its execution, and memoizedProps are set at the end.
+
+//When the incoming pendingProps are equal to memoizedProps, it signals that the fiber's previous output can be reused, preventing unnecessary work.
+
+
+
+
+//pendingWorkPriority
+A number indicating the priority of the work represented by the fiber. The ReactPriorityLevel module lists the different priority levels and what they represent.
+
+//With the exception of NoWork, which is 0, a larger number indicates a lower priority. For example, you could use the following function to check if a fiber's priority is at least as high as the given level:
+
+//function matchesPriority(fiber, priority) {
+  return fiber.pendingWorkPriority !== 0 &&
+         fiber.pendingWorkPriority <= priority
+}
+
+//This function is for illustration only; it's not actually part of the React Fiber codebase.
+
+//The scheduler uses the priority field to search for the next unit of work to perform. This algorithm will be discussed in a future section.
+
+
+
+//alternate
+
+//flush
+
+//To flush a fiber is to render its output onto the screen.
+
+//work-in-progress
+
+//A fiber that has not yet completed; conceptually, a stack frame which has not yet returned.
+At any time, a component instance has at most two fibers that correspond to it: the current, flushed fiber, and the work-in-progress fiber.
+
+///The alternate of the current fiber is the work-in-progress, and the alternate of the work-in-progress is the current fiber.
+
+//A fiber's alternate is created lazily using a function called cloneFiber. Rather than always creating a new object, cloneFiber will attempt to reuse the fiber's alternate if it exists, minimizing allocations.
+
+//You should think of the alternate field as an implementation detail, but it pops up often enough in the codebase that it's valuable to discuss it here.
+
+
+
+//output
+//host component
+//The leaf nodes of a React application. They are specific to the rendering environment (e.g., in a browser app, they are `div`, `span`, etc.). In JSX, they are denoted using lowercase tag names.
+Conceptually, the output of a fiber is the return value of a function.
+
+//Every fiber eventually has output, but output is created only at the leaf nodes by host components. The output is then transferred up the tree.
+
+//The output is what is eventually given to the renderer so that it can flush the changes to the rendering environment. It's the renderer's responsibility to define how the output is created and updated.
+
+
+
+//Future sections
+That's all there is for now, but this document is nowhere near complete. Future sections will describe the algorithms used throughout the lifecycle of an update. Topics to cover include:
+
+
+
+
+//how the scheduler finds the next unit of work to perform.
+
+//how priority is tracked and propagated through the fiber tree.
+
+//how the scheduler knows when to pause and resume work.
+
+//how work is flushed and marked as complete.
+
+//how side-effects (such as lifecycle methods) work.
+
+//what a coroutine is and how it can be used to implement features like context and layout.
+
+
+
+//*********************************************************************************************
+
+//props ...
+
+//props component ko banati hain reuseable.. 
+
+//its mean ak bar ap card bana liya to kiu na uss card ko component mein rakha jaye.
+
+//or ushko bar bar use kar liya jaye ..
+
+// genral jho design or concept hota hain web design ka .ush mein hota hain ,html ko alag jaiga rakha jayega ,css ko alag she rakha jayega  or  js ko alag se rakkha jayega..
+
+//lekin react ehh trteditional mindset she nahi jata hain..react mein kaha jata hain.
+
+//technology ke base mein app chiso ko segricatye mat karo. separate karo basis pe keya ohh kam kar raha hain.
+
+|
+
+
+///ak neya hi component bana liya jho card ke jaishe kam karega ..
+
+//just download a extension react seepide ..and just type //just press rfce..
+
+//and here u got the react structure.
+
+
+      {/* <div className="max-w-xs p-6 rounded-md shadow-md bg-black ">
+        <img
+          src="../h-sir.jpg"
+          alt="hitesh sir picture ."
+          className="object-cover object-center w-full rounded-md h-72 bg-gray-500"
+        />
+        <div className="mt-6 mb-2">
+          <span className="block text-sm font-medium font-mono tracking-widest uppercase text-indigo-400">
+            Title
+          </span>
+          <h2 className="text-xl font-semibold tracking-wide">Lorem ipsum dolor</h2>
+        </div>
+        <p className="text-gray-300">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora ipsum soluta
+          amet
+        </p>
+      </div> */}
+
+
+
+
+      {/* <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img 
+  src="../h-sir.jpg" 
+  alt="Profile Photo" 
+  class="w-40 h-40 object-cover rounded-full mx-auto shadow-lg border-4 border-white md:rounded-lg" 
+/>
+
+  <div class="pt-6 md:p-8 text-center space-y-4">
+    <blockquote>
+      <p class="text-lg font-medium">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+    <figcaption class="font-medium">
+      <div class="text-sky-500 dark:text-sky-400">
+        Debanjan Roy
+      </div>
+      <div class="text-slate-700 dark:text-slate-500">
+        Staff Engineer, Algolia
+      </div>
+    </figcaption>
+  </div>
+</figure> */}
+
+here is just two card,,,
+
+
+
+
+
+// by using card componnent we create or set two or more card at a time ..but all card components info are may be different ..
+
+//at that time what we want to do..
+
+//har card khud ka ak alag information lega ...ohh sab kuch set  hota hain props she...
+
+**********************************************************************************
+//props.....................................
+
+//what is props...
+
+//jabhi hum log card banate hain eya app banate hain  sabka pass access reheta hain props ka ./
+
+//What is props in React?
+In React, props (short for properties) are a way to pass data from one component to another — typically from a parent to a child component.
+
+Think of props like function arguments, but for components.
+***************************************************
+
+/./Why use props?
+Props let you:
+
+Make components dynamic and reusable
+
+Pass values like text, numbers, functions, or even JSX
+
+Keep UI logic clean and organized
+**************************************************************
+props	      Short for     “properties”
+Purpose	Pass data to components
+Comes from	Parent component
+Read-only?	✅ Yes, they are immutable inside child
+
+*******************************************************
+
+
+//function card(props) 
+
+//afetr adding props in the function ..the contaner must be empty.
+
+//ap console.log karke bhi dekh sakte hain.
+
+//main chis ehh hain kiii ...\
+
+//   <Card/> ap card se jho bhi value pass karogi ohi props mein saw ho jayegi...
+
+  ////////////////////////////////////////////
+
+// abhi tak  props object tha jho  empty tha,,,, lekin value pass karneke bad object(props ) mein value add ho chuka hain...,. 
+// array nahi pass kar sakta hain...
+
+//direct  object bhi nahi pass kar sakta hain..
+
+
+
+
+ //myArr = [1,2,3]  // myobj ={ name : 'deb'} 
+
+ //eshe hum log nahi declare kar sakta hain.
+
+ //sumObj = myObj ish tarashe dena allow nahi hain..
+ //display karaneke liya --ehh ak variable mein {} karna padega..
+
+ //ishh tara she hum log array bhi pass kar sakta hain.....
+
+ //hum log ak component she or ak component mein value pass kar sakta hain. or ohh value recerive karneke liye .javbhi hum log card mein ohh function declare kare tab ushme ohh props add or access rakhna hain....
+
+ //ehh actually property hain ..ehh by default react ishko [props ] keheta hain..
+
+//ehh hain original syntax..
+
+//ishka or ak syntax hain.
+
+//username --- card ishh name ko kahi bhi use nahi kar raha hain..
+
+//ishh ke liye just go the card file and just console.log(props.username).
+
+//directly destucturing bhi kar sakta hain.
+
+//just jhs ke h1 tag ke andar variable ko declare karna padega,,
+
+//props srif pass karna hi kam nahi hota props ko handel karna bhi hota hain.
+
+
+///////////////////////////////////////////////////////////////////////////
+
+//keya keya sikha ......................................
+
+1.tailwind, tailwind component ,tailwind card, 
+
+2.khub ke componenet banana sikh geye ...
+
+// khudke componenet mein koi shi bhi value add karna sikh geye ..like array ,object,string etc.
+
+//ushko handel karna bhi sikh geya ..props ka basic bhi sikh geye ,,extraction or default value bhi sikh geye...
+
+
+
+//here react foundation is end...
+
+//*******************************************************************************************
+
+//react specific interview question.
+
+function App() {
+
+ let [counter, setCounter]=  useState(5)
+
+ // let counter  = 5
+
+
+
+
+
+   // console.log("value added" , Math.random()); 
+    // agar value update ho raha hain to counter bhi update ho sakta hain.
+
+  const addvalue = ()=>{
+  
+
+   
+    // counter = counter +1
+
+  setCounter(counter + 1 )
+  setCounter(counter + 1 )
+  setCounter(counter + 1 )
+  setCounter(counter + 1 )
+  setCounter(counter + 1 )
+
+   console.log("clicked ",counter);
+
+  //keya ehh function ishh counter ko access kar sakta hain.
+
+  //in an interview , interviwer just increase ythe counter at anyone , what is ther values result without run.
+
+  //here always the value increase one by one .beause for one click value increase one time..
+
+  //its not about setcounter ..../// its happend beacuse of usestate.
+
+  //usestate jitni bhi updaye bhejna hain ui mein naki ui mein also variable mein..unko batches mein vejta hain...
+  //fiber  definng algorithm ,jho abhi or bhi more secure ho chuka hain.or control ahh getya hain..ohh update ko batches mein varta hain or var deta hain ki ehh kam kardo..
+
+  //actually aki counterbar bar update ho raha hain..
+  aki kam bar bar ho raha hain..
+
+
+****************************************************
+  // per agar asha koi situation ho ki counter ko eshi tarahi update karna ho..
+
+  //seter method hain ushko dena padta hain.
+
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+  //setcounter(prevcounter)...
+
+  //prev counter actually existing stste deta hain..
+
+  //set counter ke andar ak call back milta hain ..ak call back accept karta hain..
+
+  //srtcounter(() => {})
+
+  //ehh ak call back hain ..ahh ak hidden features hain. ak function ke andar call back accept karta hain..
+
+  //prevcounter jho ki last updated state hain ohh ,,ohh apne bapash se fetch karke apne mangaye hain..
+
+  //prevcounter = ((prevcounter ) => prevcounter + 1);
+
+//// jho call ki through ata hain ohh  complete hone ke bad hi ata hain...
+
+
+
+******************************************************************************************
+
+now we start creating projects........
+
+//to ish project mein hum log dekh ki color change ho raha hain ..its means color kishi na kishi variable mein store hain...
+//or srif variable nahi color ui mein bhi jha raha hain ..its means hum logo ko chaye ak stste.
+
+
+//const ..hum log direct color nahi likh sakta hain ..ush ko array mein likh na hain.
+
+//eshob ayega usestate she ..
+
+//useState("green") //set a default color value .
+
+class - classname becauser class ak reserved keyword hain..
+
+//after create the all button ..
+//ab main jho kam hain ab color kaishe change kare ..
+
+//first jho way hain oh hain---har button pe ak onclick le lunga onclick handeler le lunga or jha kar state change kar dunga,
+
+,.
+
+//kiuki button pe onclick hi run karna hain. call back bhi hum log fire kar sakta hain..
+
+//ab question ehh hain ki eshh tarashe hi likhna jaruri kiuu tha ,,
+
+//onClick={() => setcolor("red")}
+
+//keya humlog directly setcolor nahi likh sakta hain keya...
+
+//kamn ho jata lekin ..onclick hain ak quniue method onclick chata hain ki ap ushko ak function return karoge,,,
+
+// agar just set color likh ke do fir bhi kam hoga kiu ki ehh ka reference hain..
+
+//lekin esh tara likh kar ap ishme or parameter nahi de sakte hoin ...
+
+//parameter dene ke liye apko onClick={() => setcolor("red")} ishh tara likh na hi hoga ...
+
+//ehh sysntax ka hi problem hain ..na js ka problem na react ka problem..
+
+//actually ehh onclick ka problem hain..
+
+//onclicl ko function hi chaiye ,,functionn she jho return ahh raha hain ohh nahi chaiye ,onclick ko function hi chaiye..
+
+onClick={() => setcolor("red")} //ehar just ak call back function kam kar raha hain jho setcolor ko hi call kar raha hain.. or function ke andar or ak function deke just color value pass kart raha hain.......
+
+
+//here one important question...
+
+// “Why does the background color reset to the default after refreshing the page?”
+
+✅ Short Answer:
+//Because React’s useState() is in-memory only — it doesn't save data between page reloads.
+
+//So when you refresh, your app resets back to the initial value:
+
+//js
+//Copy
+//Edit
+//const [color, setcolor] = useState("#36a2c6");
+✅ //Solution: Use localStorage to persist the color
+//When a user picks a color, save it in localStorage. On next load, check for it.
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+//new project..
+//aki method ko bar bar used karn ahain to ushko ..normal hi used kar de ki koi optimizations way bhi hain.
+//eha par hi jho concept ati haion ohh hain memorization ki concept.
+
+//react kuch hoocks detaa hain ki asha situation ko control kar sake..
+
+//eha or ak important chis hain copy . 
+// copy jab click kar raha hain tab srif ohi text hi copy kar raha hain.
+
+//eha per bohot sare input place hain lekin ohi kaishe copy kare ...
+
+*********************************************************************************  
+1.kish  tara she method ko hum log page refresh karneke ke time pe run karaye ..or without refresh bhi run karaye..
+
+
+2.kuch hamare pass dependency hain ,,ush me koi bhi cher char ho to ohh method dobara reload ho..
+
+3.optimize tarikho she kaise kar paye ..
+
+4.kishi ko filed pe particularly target kaishe kare ... 
+
+5.abhi hum log copy karke target kar rahi hain.
+6.lekin main concept hain target karna ...
+
+
+
+//password generator.............
+
+
+
+//attack kaishe kare...
+
+//length - length update ho raha hain its means kuch ho raha hain.. 
+
+//length ko attack karneke liye keya kare...
+
+/// attack karneke liya lagega usestate ....
+//ehh ak hoocks hain..
+
+
+//usestate hoga lekin ushke sath keya value hoga . true ,false..
+
+//number ya to lo eya mat lo...
+
+// input field mein har time password generate ho raha hain .. fir ushko bhi ak state mwein rakhna chaiye...
+
+//password input pein hum log chaye to ak password de sakta hain ..lekin hum log password generate karayenge..ehh ak alag hi machanism hain .ki koi api call ho jaye koi function or method run ho jaye ki password page load hote hi automatic dekhne lage....
+
+//ak priblem hain ehh jho copy hain ehh kaishe kam karta hain ohh hug logo ko nahi pata hain...
+
+//least create a password generator..
+
+//password generator create hone ke bad ..ushko do place per call karna padega ....
+
+//ak to number pe or ak character  pe....
+
+//koi to traikha hain ki ehh method ko hum log optimize kar lu...
+
+****************************************************************************************************
+
+
+//ish ke liye padna hain docs ....
+
+//use call back react hoocks..... 
+
+//useCallback
+//useCallback is a React Hook that lets you cache a function definition between re-renders.
+
+its hookc ko used karta hain like ishh tara ...
+
+//const cachedFn = useCallback(fn, dependencies)
+
+//abb dependency -----hug logo ke pass number hain ,ehh dependency hain agar ehh change huya to password bhi change hoga ... for character its also do the same things ...
+
+// dependency ak array hain [ jish mein just pass karna hain ap ki variable ko..]
+
+*********************************************
+
+//usecallback ko kaishe use kare ...
+1. first define karna padega
+2. jaishe usestate used karta hain oshe hi same to same ...
+
+
+
+
+
+
+
+
+
+
+
+
+   <input
+       type="checkbox"
+      defaultChecked={numberAllowed}
+      id= "numberInput"
+    
+      onChange={() => {
+          setNumberAllowed((prev) => !prev);
+          }}
+
+          //just done a call back fire and previous value jho bhi hain ushe just reverse kar do...
+
+
+          //setcharAllowed(true)
+          //agar true kar diya tho ,ohh har time true hi rahega ,,ohh check mark or unchak ho raha hain lekin value same to sAme hi raha hain.
+
+//ish liyee idhar bhi same kam karna hain  //just done a call back fire and previous value jho bhi hain ushe just reverse kar do...
+
+//ish tarake event propogate karna hain to call fire kar sakta hain..ishh call back ke andar previous value ki access reheta hain ..
+
+//prev value jho bhi hain ..ak new value dene ke liye ak !prev likh diya ...its means jho bhi vale true tha ohh false ho geya .or jho bhi false tha ohh true ho geya ..
+
+
+
+//.jaishi bhi page load ho.....abhi ohh password ko fill karneke liye kuch na kuch to chaiye kiuki abhi koi button nahi hain hum logo ker pass 
+
+// so koi bhi ak chis chaiye or  rehega jho ohh method ko call karega...
+
+//eya to ap manually call kar di jiye..
+
+
+
+//ishh tara she nahi hoga direct call karke like passwordgenerator()
+
+//kiuki humlog usecall back lagaya hain ...agar ehh hum log nahi lagata to ehh keya kam karta ...
+
+
+
+// react mein kon kabhi render hoga  ohh kabhi user nahi control karta ha..ohh khabi setsets controol karta hain...
+setvalue bhi control karta hain..
+
+//ak tarikha hain ki ap button lagaye call kar dijiye ehh ak tarikha hain..
+
+//dushra method or aka hota hain ki or ak hoocks padle ...
+
+**********************************************************
+//useeffects..
+
+
+//ehh hoocks bphot interesting hota hain...
+
+//useEffect
+useEffect is a React Hook that lets you synchronize a component with an external system.
+
+
+//used ----almost same as usecallback ..
+
+//useEffect(setup, dependencies?)
+
+//ehh same to same callback hoocks ke tara hi hota hain ...
+ak raheta hain call back or reheta hain dependency array .... 
+
+//keya keya dependency hain...
+
+
+useEffect(() => {
+  passwordGenerator()
+}, [length,numberAllowed,charAllowed,passwordGenerator])
+
+//eshh ke andar hum log passwordgenerator ko run kar sakta hain...
+************************************************************************
+
+
+//The useEffect hook is used in React functional components to perform side effects — actions that are not directly related to rendering UI, such as:
+
+Fetching data
+
+Subscribing to events
+
+Changing the document title
+
+Running timers or animations
+
+Updating state based on props
+****************************************************************
+
+
+//after run the useeffect hoocks and run the passwordGenerator() ....here we got a problem ..random passwords are generate but the passwords length is 1...
+
+
+//the main problem occurd in the str section....
+
+//her loop ke andar password value override ho raha tha...
+//ishi liye oha per ak hi value ahh raha tha ...
+
+//make it concatination.....
+
+
+//[length,numberAllowed,charAllowed ,setPassword])
+//setpassword eha per dala hain kiu ki optimization ke liye ...
+//agar na deta to  bhi.... koi problem nahi hain...
+
+//eha srif setpassword hi likhna hain  ohh nahi hain srif password bhi likh sakte hain //or agar password likha to ap infine loop mein fas jayoge..
+
+//eha kuch nahi bbhi likh sakta hain....
+
+
+
+******************************************************************
+
+
+//callback...
+
+function  ko only run karneke liye responsible nahi hain . memorise karta hain, optimize karta hain ... ushko cache mein rakhta hain.
+//sabkuch hi cache mein rakhna hain...
+
+//so eh jho call back hain or eshka jho dependecy array hain ishh ke sath useeffect ki dependency array ko ak mat samajh na....
+
+//callback mein optimeze ka bat kar rahi hain ..
+
+//or useeffect mein koi bhi cherchar ho to ,,dubara ushe run kar do ...ehh hain mainn  difference........
+
+
+//usecall back ..used kara hain mean hum log optimize kar raha hain...
+
+//**********************************************************
+//abhi or ak problem hain ki copy karna hain ....copy karna hain or ohh keyboard mein dekhna chaiye ...
+
+//copy karna to easy hain lekin keya copy karna hain ohi main bat hain eha pe...
+
+//keya keya karna hain...
+
+//select karna hain ehh input field  lo...
+//renge bhi batana padegi ..kitna unit copy karna hain..
+
+//system ka clickboard ka access chaiye ..
+
+//**********************************************************************************
+
+//here we about another hoocks ohh hain useRef.......
+
+//useRef Hook in React – Explained Simply
+
+The useRef hook is used to:
+
+Access DOM elements directly
+
+
+Persist values across renders without causing re-renders
+
+
+
+//syntax //use
+
+//import { useRef } from 'react';
+
+const myRef = useRef(initialValue);
+
+//kishi bhi chis ka agar hum logo ne reference lena hain to hum log useRef hoocks used karta hain.....
+
+
+//useRef ko used karneke liye apko ushe ak variable banana padta hain....
+
+
+
+
+//edhar hum log core react ke upor kam kar rahe hain ish liye hum log directly windows likh pa rehe hain..
+
+//altimetly react complile hogi core js ke andar or jaha bhi compile hogi udhar rahega window object.
+
+//or ehh agar next js ke anadr karegi to ohh hoga server side rendering ..its means sare code run hoga server side mein ...
+
+//server ke pass window object nahio hota hain ...
+
+
+//passwordref she hum log bohot kuch jan sakta hain ...
+\
+//ki current object hain eya nahi hain ...
+
+//ke ohh mere pass accessable hain eya nahi hain ..
+
+//keya ohhselectable hain eya nahi hain ..
+
+//optimize way for user..
+
+//agar hum log koi bhi kuch agar copy karte hain ohh highlight hota hain ..hain ohi copy highlight karanek ke liye hum ref ko used karenge ... user interface stronge ke liye ...
+
+******************************************************************************************
+
+1.variable select ..
+length 
+numberAllowed
+charAllowed
+password rakhna hain eya nahi rakhna hain ohh hum log input ke andar saw karenge ..
+
+2.
+password generatorka ak method karenge jho ohhstring value lenge 
+
+string hum ne if else kar di 
+
+then loop li ..
+charAct ..konshi char ko apko lena hain ..
+
+setpassword (pass)
+kiu ki seate hum logoka ehi hogi...
+
+then huglog ishko optimize kiya ..
+
+//usecallbqack likha ..usecallback function ko memorise kar sakta hain ..ushka past ko bhi rakh sakta hain...
+password kwe badle mein setpassword likha hain kiu ki agar edhar password likhenge to ohh infine loop mein gir jayega ,,
+
+//optimize bhi ohh ish liye callback lagaya hain ..
+
+//useeffect sikha ...jabhi hum logo ka page reload hoga to ehh run karega || or agar in use dependency mein koibhi cher char ho to fir another time ohh reload ho jayega...
+
+//tailwind used kara tha or input kare the .or button kare the ..
+
+//copyToClipBoard kaishe kar sakta hain ..
+
+const copyPasswordToClipBoard = useCallback(() => {
+  passwordRef.current?.select();
+  // passwordRef.current?.setSelectionRange(0, 3);
+
+
+    window.navigator.clipboard.writeText(password)
+} , [password])
+
+
+//fir ui or bhi achhe ke liye hum log used kare useref hoocks...
+
+
+//edhar hamara ehh wala project khatam hota hain...............
+***************************************************************************************************************
+
+
+2. project starts here .........
+
+//another projects...
+
+//converted usd to inr.........
+
+//create a apna hoocks ..ak custom hoocks banate hain ....
+
+//to ak custom hoocks banane ke liye hum ne src file ke andar ak new folder banaya jishka name hain ..hoocks or ushke andar ak file banaya jishka name hain useCurrencyInfo .js....... 
+
+//ak achha practics hain ki agar ak file jsx rteturn kare tab hi oush file ka name jsx ke save karna hain ..lekin edhar ehh customas hoocks are not rtetuirn the jsx so u just save this file name as a js file..
+
+//
+
+
+////create a hoocks //jho return karega ak data.
+//lekin keya data return karega ohh bhi hum log edhar dekhege..
+//main chata huin jab ish hoocks ko koi used karega ..eya ehh hoocks load hoga tab ehh hoocks call hoim.//api ko call kare.
+//to eisha konsha hoocks hain jishko main invock kar sakta huin  ki jab koi component maount or unmount ho raha hoin..
+//jabbhi koi component mount hota hain ushka life cycle event trgger hota hain ..to ushke liye hamare pass ak hoocks hota hain ohh hain 
+
+//useeffects hoocks...
+//ishko use she hamara autonatically fetch ko call ho jayega ..
+
+//useeffect hoocks ko laghta hain do chise ak to hota hain callback or ak hota hain dependency.
+
+//ishko use karne she hum logo ko function ke andar function ko nahi call karna padta hain.
+
+//agar dependency array ,mein koi bhi change ayega to dobara ohh api call karega ...
+
+
+//      fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`)//api.
+
+//interesting api hain ak call hain bash just variable ke name change kar do.. then then humlogo ko json data mil jata hain . lekin ehh data json nahi hota hain .actually ehh data format string jaishe hi ata hain ..or esh string ko hi json mein change karna padta hain..
+
+//reactquery ehh bydeafult change kar deta hain...
+
+//then hum log used karta hain .then or .then ke andar milta hain ..callback function.
+
+
+// .then((res) => res.json()) //convert to json format..
+        .then((res) => )
+
+        //agar data ko ak regular variable mein store kar dunga to problem hogi.. kiuki ui mein kabhi update  nahi hoga ..
+
+        //to ish liye ehh jho hoocks hain na ehh directly usestate she4 value return kara deta hain ...
+
+
+
+        // useState({}) edhar agar koi bhi data nahi hain ak empty obj hoga jishke upor hum log loop laga sakta hain .. ishke through ehh kabhi crush nahi hoga..
+
+
+        //ehh jho useeffects ke andar fetch hain ehh app kab kab call karane chahoge..
+        //usd she inr karunga tab chahunga call ho...
+
+
+
+        //ak functionaly design kari or puri method ko hi return kar diya ...
+        //export default useCurrencyInfop;
+
+        //eha hum logo ka custom hoocks create karna khatam hota hain ........
+
+
+*************************************************************************************************
+
+2. kish tara she hum log component ko reuseable banati hain ...
+
+//for this ..first we create a new folder in the main src folder .then create a file in the folder .and save the file name as uppercase..
+
+
+
+function InputBox({
+    label,
+    amount,
+    onAmountChange,
+    onCurreencyChange,
+    currencyOption =[],
+    selectCurrency = "usd",
+    amountDisable =false,
+    currencyDisable = false,
+   
+    className = "",
+})
+
+//function ke andar ehh sare input hain....
+
+
+//   <label className='text-black/40 mb-2 inline-block'>{label}</label>
+
+just wrap by the crulybrasesh ..ap ehh data variable she ahh jayega ....
+
+//now 
+
+
+//evenet fire kar sakta hain or method call sakta hain..
+//     onChange={(e) => onAmountChange} //ish event she hum log ak method ko call kar sakta hain ..lekin konsha method call karu..
+
+//onAmountChange ko call karna hain...
+
+//jho main call karega ohh ohi pe agar hamara ehh onAmountChange hain ohi she ishka diurect accesss ho jayega...
+
+
+//***************************************
+//remember the key in loops in reacty...
+
+
+
+
+//import React, {useId} from 'react'
+
+function InputBox({
+    label,
+    amount,
+    onAmountChange,
+    onCurreencyChange,
+    currencyOptions =[],
+    selectCurrency = "usd",
+    amountDisable =false,
+    currencyDisable = false,
+   
+    className = "",
+}) {
+
+    
+  return (
+    <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
+        <div className='w-1-2'>
+            <label className='text-black/40 mb-2 inline-block'>{label}</label>
+            <input 
+            className='outline-none w-full bg-transparent py-1.5'
+            type='number'
+            placeholder='Amount'
+            disabled={amountDisable}
+            value={amount}
+            onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))} //checkeer 
+            
+             />
+        </div>
+        <div className='w-1/2 flex flex-wrap justify-end text-right'>
+        <p className="text-black/40 mb-2 w-full">Currency Type</p>
+        <select 
+        className='rounded-lg px-1 py-1 bg-gray-100 cursor-pointer outline-none'
+        value={selectCurrency}
+        onChange={(e) => onCurreencyChange && onCurreencyChange(e.target.value)}
+        disabled ={currencyDisable}
+       
+        >
+           {currencyOptions.map((currency) => (
+            <option  key ={currency}
+             value={currency}>
+               {currency}
+            </option>
+           ))}
+
+
+        </select>
+
+        </div>
+    </div>
+  );
+}
+
+export default InputBox;
+
+
+//ab tak ehh sab kuch thik hain ...
+
+//lekin ehko hum log or bhi optimize bana sakta hain ....
+
+//react ke andar or ak alag hoocks milta hain import React, {useId} from 'react'
+
+//useId------ehh bhi ak hoocks hain in react..
+
+//about useId hoocks in react...
+
+//useId Hook in React — Simple Explanation
+useId is a React Hook introduced in React 18 used to generate unique IDs that are consistent across server and client rendering, and safe for accessibility (e.g., linking labels to inputs).
+
+
+//syntax how to used the useId hoocks in react..................
+
+//import { useId } from 'react';
+
+const id = useId();
+
+//useId
+useId is a React Hook for generating unique IDs that can be passed to accessibility attributes.
+
+const id = useId()
+
+
+
+//Do not call useId to generate keys in a list. Keys should be generated from your data.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+3..project...
+
+/react router../
+
+
+//reactrouterdom ki jho ki react accential core part nahi hain ...
+//its works as a third party library....
+
+//ReactRouter.com/// for documentation...
+
+//first step ehh hoga jitni bhi component hamari need hain ohh sabhi component banana hain ...
+//ushke bad functionality ke kam kara jayega...
+
+
+
+//sab kuch complete honeke bad just ..
+
+//src ke andar ak new components folder banaya ..
+
+//ushke andar do or new folder banaya ..
+//1.Header
+//2. Footer
+
+//ab install karna hain reactrouter-dom in the folder ..just go through the terminal and just run the command react-router-dom
+
+
+
+
+// link or ak hain navlink...
+
+actually ap jab react-router-dom insrtall karta hoo tab apko react ke sath useeffect usestate milta hian ..or bhi kafi sari chise milta hain ..ushi tara eha bhi kuch neya chise mile hain ....
+
+/////////
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+
+//en do file ko import karna hain ...
+
+//difference between link and nav link ...
+
+//dono almost same3 hain ... 
+
+//lekin navlink mein or jada features milta hain...
+
+//basically hum log link ko inplace of <a> </a> tag ka  use karta hain ...a tag jabhi hum log used karte hain its means pura page hi refresh hota hain ....
+
+//or react ke nadar hamara refresh wala concept hi nahi hota hain ...
+//sidha dom jata hain eha she or new value inject ho jata hain nodes ki ...
+
+//ishi liye hum a tag nahi link used karta hain ...
+
+
+/////////////////////////////////////////////////
+
+react mein hum log a tag nahi used karta hain kiuki refresh ke baje she ...edhar hum log link tag hi used karta hain...
+
+//nav link hum logo ko kuch additional chise share karta hain or deta hain...
+
+//link ke andar hum log jho href likhta hain .... edhar href ke badle mein likh ta hian to...
+
+//    <NavLink
+                                to="/"
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
+                                        ${isActive ? "text-orange-700" : "text-gray-700" } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Home
+                                </NavLink>
+
+
+     //user ko kaishe pata chalega ki user home mein hain ...eya agar user about mein jana chaye to kaishe ohh samjhe ohh about mein jaiye ...to agar ushe highlight karna hain to eishe call back ke anadra tailwind class likhna  padta hain..
+
+     //      className={({isActive}) => // jabhi ap navlink used karte hain ... to apke pass directly access hota hain ak variable ka .. ushkka name hain isactive..
+
+
+
+     //`block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
+                                        ${isActive ? "text-orange-700" : "text-gray-700" } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+
+  //variable inject kar diya ...
+
+  //ab ehh navlink automatically apko bol dega ke ap jho page mein hain ohh ak active page hain eya nahi hain...
+
+  //agar true hain to kuch karenge or aGAR FALSE HAIN to kuch or karenge ...
+
+//////////////////////////////////////////////////////////////////////////
+
+
+  //abhi just create karna hain same to same process mein footer file ke andar ak fotter.jsx file and ush mein kam karna padega....
+
+  //ehh footer dumm component hain kuch eehh kam nahi karta hain...
+
+
+  ////////////////////////////////////////////////////////////////////
+
+  //abb hum logo ko chaye ak home componet ...
+
+
+
+  //react ka sort template ke liye just tap rfce....
+
+
+  //ishh project mein hum log app.jsx ko used hi nahi karenge ...
+  //hum log ak router create karte hain..
+
+  //main.jsx ke anadar hum log ....
+
+
+  createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <RouterProvider router={router}/>
+  </StrictMode>,
+)
+
+//edhar hum ne ak strictmode ke anadar ak routerprovider banaya jho kina nata hain react-router dom she ..
+
+
+//abhi router kaishe banayenge ohh dekh te hain....
+
+
+//
+
+
+
+
+
+
+//main chata huin mera header or footer hamesha same rahe just andar ki componenet change hota rahe ....
+
+//ak to normal way hain ki hum header sab componenet mein call kare home mein bhi , about mein bhi har place mein ...
+
+//or or ak way hain ,
+scr ke andar ak new file create kara layout ke nam she ..udhar jha ke .ak layout.jsx file banaya or ushmein 
+
+
+
+//fragment banake ...
+//ehh calll kar diya ...
+
+//
+function Layout() {
+
+  return (
+    <>
+     <Header/>
+    <Footer/>
+
+  </>
+  )
+}
+
+export default Layout
+
+//ab chata huin dynamically chise pass kardu ...
+
+//like honme bhi kar duin about bhi kar duin...
+
+//kish tarashe hum log ehh kar sakta hain ......
+
+//ehh karneke liye react-router dom she ak chis hum logo milta hain ohh hain *(outlet)
+
+
+//import { Outlet } from 'react-router-dom'
+
+//ehh outlet keya karta hain ...
+
+//outlet eshh layout ko base manke lehh lega ..or ish mein jho bhi ayega. ohh same rakhega .....
+
+
+
+
+*******************************
+//const router = createBrowserRouter([
+  {
+    path: '/'
+  }
+])
+
+edhar main .jsx ke andar hum logo ne de rakhhe hain '/' ..... / hain top level element esh ke andar nesting ho raha hain..
+//to ehh keya chishe nesting karegha ...ohh element batana padta hain ....
+
+//          to="#"
+//jish tara link ko dena padta hjain ki ap kaha jha rahe hoin ...
+
+//ushi tara navlink ko bhi dena padta hain ki ap kaha jha rahe hoinn
+
+//like ----- <NavLink
+                                to="/about"
+
+
+
+
+
+ //////////
+ after complete the about page we need to create a contact page ...
+
+ same create and work for a contact page ...
+
+ ////
+
+
+
+ /////////////////////////////////////////////
+
+ //another way to create  a createbrowserrouter ...
+//ehh thora sha easy hain ..
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<Layout/>}>
+    <Route path='' element={<Home/>}/>
+    <Route path='About' element={<About/>}/>
+    <Route path='Contact' element={<Contact/>}/>
+
+    </Route>
+  )
+)
+
+
+//ab mein chata huin ak aur path banana chata huin ...
+
+//id lena hain ..
+
+http://localhost:5173/contact/user/1
+
+ehh route banana hain ..
+
+//sabshe pehele 
+
+ak folder create karna hin same to same process ...
+
+//ab main .jsx mein ,jish tara she ap parameter loge url she ohh sara kamm eha she hota hain ...
+
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<Layout/>}>
+    <Route path='' element={<Home/>}/>
+    <Route path='About' element={<About/>}/>
+    <Route path='Contact' element={<Contact/>}/>
+    <Route path='user/:userid' element={<User/>}/>
+
+    </Route>
+  )
+)
+
+
+ <Route path='user/:userid' element={<User/>}/>
+
+ //:id --ehh bohot important hota hain ..
+
+
+
+ http://localhost:5173/user/1
+
+ //ehar main menu ke andar koi bhi path nahi hain ..
+ //jab  hum log local host pe jha ke aishe likh ke hit karta hauin ,user to ahh jaataa hain ..
+
+ //lekin user render kar raha hain 1 pe bhi 1000 pe bhi ,,, user aata hain user ke id ke upor depend karke ,, esha hi hota hain har ak social media platfrome per ..
+
+
+ //ab main chis hain ki kish tara she eshka parameter lehh sakta hain ,kish tara she ishka value lehh sakte hain..
+
+
+ //jdo bhi elelment render kar raha hain ,ushke main file mein sab kuch mil jata hain ..//access mil jata haain ..
+
+
+
+ import React from 'react'
+import { useParams } from 'react-router-dom'
+
+function User() {
+
+    const {userid} = useParams()
+  return (
+    <div>User: {userid}</div>
+  )
+}
+
+export default User
+
+
+esha karke jho bhi url mein ahh raha hain ohh apko mil jayega ..
+
+
+
+//////////////////////////
+
+after complete it now want to create another one commponent github ..
+
+//eshar hum log chate hain kuch follers saw ho gaye bash ..ehi ..
+
+//git hub ke followers milegi kaha she sabshe pehele nevigation bar mein ak link hona chaiye ...
+
+
+
+//github ke followers lehhke ayogi kaha she ...
+
+//esha kam kara jata hain ,api ka through she ..
+
+//api hum tab call karna chata huin jab ehh componenet load hoin tab ..
+
+
+
+ useEffect(() => {
+    
+    
+    }, [])
+
+    //useEffect jav ak componenet load hoga tab she hi ehh component load hoga ...
+
+
+
+    // ak or chis neya hain or ohh hain loader ,,, loader ap directly koi agar api ko fetch karna hain to ap oha she hi direct kar sakta hain ....
+
+    //loader....
+
+
+    //suppose koi bhi button ke upor agar ap curser lehh ar jati hoin tabb bhi ohh api fetch karna shuru kar dega ...
+
+    // or ehh useeffect  ke  bhi age hota hain ..
+
+
+    //import { useLoaderData } from 'react-router-dom';
+    here we used another hoocks ....
+
+
+    //main point read react router dom properly .......
+
+
+    //eha paar react router khatam hota hain ....
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //context ..
+
+    //ehh context start hota hain props she agar ap props ko smajh te hain tabhi ap ,context ko samjhge ... 
+    //context api ...
+
+    //full concept keya actually karna cha raha huin ..
+
+    //hum logoke pass ak hain ,,suppose i create a card , and i aalready i haave a app ,and by using this app we want to put a data in the card ,
+
+    <app/>
+
+    <app username = "chai"/>
+
+
+
+    <card/>
+
+    Debanjan
+
+
+<dasgboard/>
+
+<dashboard title ="chai"/>
+
+ish ke andar hain ak left side nav bar and right side bar ..
+
+
+//right side bar  have two part 
+
+upper part and lower part 
+
+upper ke andar 
+
+ak card hain jish mein user name display karane hain ....
+
+we have two side one is 
+
+
+<leftside/>
+
+other one is 
+
+<rightside/> ==> <topcomp/> ==> <card/>
+per actually to data card pe aya hi nahi , kiuki data dashboaard ke pass hi hain ... dash boar seh data lehh kar ane ke liye 
+
+har  aka mein daata traversing karana padega ..
+
+// ak global object ke andar ak title create kar diya ...
+
+
+//eha she directly data puch sakta hain ...
+
+
+//or ishko keheta hain prop drilling ...
+
+
+
+
+// context api akela nahi hain or bhi library hain ..
+
+//context api associate hain pure react she kiuki ehh react ki bahar exist nahi karta hain ...
+
+//redux........
+
+//redux ke kam hota hain ehh jho state management hoin raha hain ,its means ehh jho data transfer ho raha hain ushko organized way mein karna ..
+
+//react-redux.
+
+//redux-toolkit (rtk)
+
+
+//zustand ak easy library hain state management karneke liye ...
+
+//documenttation ...
+
+//https://react.dev/reference/react/createContext
+
+
+//*************************************
+
+//ish project ko hum log handel karenge context api she ..
+
+//context api matlab ak global variable bana raha huin ushh varibale ke andar shara data jayega ..
+
+
+//sabshe pehela ak foldar banaya jata hain contexxt ..
+
+//oh bhi 2 file mein divide hain...
+
+
+part 1 ....
+
+//how create a user context ...
+
+import React from "react";
+
+
+const UserContext = React.createContext()
+
+
+export default UserContext;
+
+
+
+// har aka context ak provider hota hain ...
+
+//kiuki har ak context varibale provide karta hain ...
+
+//usercontext bhi ak provider hain ..
+
+
+
+// hug log ish ko ak wrap kar  sakte hain ...
+
+<UserContext>
+
+<Login/>
+
+<Card/>
+
+<Data/>
+
+</Card>
+
+<UserContext/>
+
+
+//ab ehh ban geya hain ak provider.or jho ki ish ke anadar componenet hain sare componenet ko global user context ka access hoga ...
+
+
+
+//agar aka bar context ready ho geyaa to ushke sath ak provider bhi bananna padtaa hain kiu ki ,provider data provide karta hain ..
+
+//ish ko used kaishe karu ...
+
+//andar jitna bhi context banaoo ohh componenet usercontext ke through sari deta lehh sakta hain ..
+
+//how create a user context ...
+
+import React from "react";
+
+
+const UserContext = React.createContext()
+
+
+export default UserContext;
+
+
+//how create a usercontextprovider.
+
+//wrapping hi hain providing .......
+
+
+import React from "react";
+
+import UserContext from "./UserContext";
+
+
+const UserContextProvider = ({children}) => {
+ const [user, setuser] = React.useState(null) // create a state .
+    return( 
+         <UserContext.Provider value={{user ,setuser}}> ..//property..//value bhi add karna padtta hain..data bhi dena padta hain..
+            {children}
+         </UserContext.Provider>
+    )
+}
+
+export default UserContextProvider;
+
+
+
+//userprovider ko import karana hain app.jsx mein.
+
+import './App.css'
+import UserContextProvider from './context/UserContextProvider'
+
+
+function App() {
+
+
+  return (
+    <UserContextProvider>
+     <h1>
+      React with Debanjan
+     </h1>
+    </UserContextProvider>
+  )
+}
+
+export default App
+
+//app ke anadar jho bhi componenet app lenge ohh componenet ke bashh direct hi access milega...
+
+**********************
+
+
+//first componenet login.jsx mein import karana padega ..
+
+import React,{useState , useContext} from 'react'
+
+import UserContext from '../context/UserContext'
+
+
+
+
+
+
+
+//another way ..
+import { createContext ,useContext } from "react";
+
+export const ThemeContext = createContext({
+    themeMode: "Light",
+    darkTheme:() =>{},
+    lightTheme:() =>{},
+})
+
+hum edhar variable bhi dehh sakta hain or unki method bhi dehh sakta hain ...
+
+
+
+//edhar aka hi production file mein sab kuch ak sath kara jata hain ..
+
+import { createContext ,useContext } from "react";
+
+export const ThemeContext = createContext({
+    themeMode: "Light",
+    darkTheme:() =>{},
+    lightTheme:() =>{},
+})
+
+
+
+export const ThemeProvider  = ThemeContext.Provider
+
+export default function useTheme(){
+    return useContext(ThemeContext)
+}
+
+
+//har chis wrapped hain context api she ..
+
+//tailwind theme.
+
+
+
+//here wwe have or got a problem that my toggle button is not work  his work properly ..
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: "class", // ← This is required for your theme toggle to work
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+//after fix it its work properly ..
+
+//explanation is in the button..
+
+What was happening before
+Your ThemeBtn.jsx changes themeMode in context (light → dark).
+
+Your useEffect in App.jsx correctly adds the dark or light class to <html>.
+
+So in your HTML, the tag really did become:
+
+html
+Copy
+Edit
+<html class="dark">
+…but nothing changed visually.
+Why?
+Because Tailwind’s default dark mode configuration doesn’t look at the class="dark" — it looks at the user’s system preference (prefers-color-scheme: dark).
+
+By default in Tailwind:
+
+js
+Copy
+Edit
+darkMode: "media"
+"media" means “Enable dark styles if the OS theme is dark”.
+
+Your toggle button was never going to override that because it doesn’t change the OS setting — it only adds a CSS class.
+
+2️⃣ What I changed
+I told Tailwind:
+
+js
+Copy
+Edit
+darkMode: "class"
+Now Tailwind’s dark mode styles (like dark:bg-gray-700) are activated by a .dark class on a parent element (usually <html>).
+
+With "class" mode:
+
+Your toggle → updates themeMode in context.
+
+useEffect → adds .dark or .light to <html>.
+
+Tailwind sees .dark → applies all dark: styles immediately.
+
+3️⃣ Why the toggle now works
+It works now because:
+
+Before: Tailwind was ignoring your .dark class completely.
+
+After: Tailwind watches for .dark and applies all dark styles instantly, letting your toggle button control the theme without touching system settings.
+
+4️⃣ Visual analogy
+Think of Tailwind’s dark mode setting like a light switch sensor:
+
+"media" = Automatic sensor — light only turns on if the sun sets (OS says “dark mode”).
+
+"class" = Manual switch — you can walk over and flip it anytime.
+
+You were flipping the manual switch… but the wiring was still set to “automatic sensor”.
+Changing to "class" wired the switch to actually work. ✅
+
+
+
+and here react first part is complete now ..turn into second part ....
+****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+
+
+//second part .................
+
+//strat here..
+
+// here also we start from the context api...
+
+
+//here we create  a todo list ,
+
+//where we have a input field(text field) ... 
+//edit option
+//delete option 
+
+//toggle option ..
+
+
+
+
+
+//todos: [
+        {
+            id: 1,
+            todo: " todo Msg",
+            completed: false,
+        }
+    ]
+
+    ehh hain property.
+
+    //ab likh na hain functionalitys
+    //or functionalitys mein defination nahi likh ta hain likh ta hain ushka name .
+
+
+    export const TodoContext = createContext({
+
+    //creaate an array .
+    todos: [
+        {
+            id: 1,
+            todo: "Todo Message",
+            completed: false
+        }
+    ],
+    addTodo: (todo) => {},
+    updateTodo: (id, todo) => {},
+    deleteTodo: (id) => {},
+    toggleComplete: (id) => {}
+})
+
+hamara componenet koi bhi ho lekin value hum log ehi she hi lungga ...
+
+//or hum log funtionality alag she app.jsx mein likhenge..
+
+
+
+
+
+    ..
+//context ke andar or ak file create kara hain ohh hain index.js ..
+
+//aksar ak folder ke andaar index file banaya jata hain kiu ki ,har ak file ko import karana hain .. or koi bhi file ko jarurat wise import kar lena hain ..
+
+
+
+//here in app.jsx mein hum log used karenge state ...usestate ...
+
+//basic functionality hain add karna hain value ..
+
+//todoprovider bhi value provide karega ,...
+
+// <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
+
+// property hain ishh liye value ahh raha hain ...
+
+//or mmethod bhi ahh raha hain 
+// so hum logo ko method create karna padega ..
+
+
+//create settodo method...
+
+//
+  const addTodo = (todo) => {
+    setTodos((prev) => [ {id: Date.now(), ...todo} , ...prev])
+  }
+
+
+  //puranaaa arry she new array create karke , new value dal do ,, dstructuring karke karna padega..
+
+
+
+  //create update todo
+
+   const updateTodo = (id, todo) => {
+    setTodos((prev) => prev.map((prevTodo) => (prevTodo.id === todo.id ? todo : prevTodo )))
+  }
+
+  //craete deletetodo 
+
+   const deleteTodo = (id) => {
+    setTodos((prev) => prev.filter((todo) => todo.id !== id))
+  }
+
+
+  //group mein she ak value delete karna hain or baki sara value as it is rahega ...
+
+
+  //craete toggle todo
+  
+  const toggleComplete = (id) => {
+    setTodos((prev) => 
+      prev.map((prevTodo) => 
+        prevTodo.id === id ? {...prevTodo, completed: !prevTodo.completed} : prevTodo
+      )
+    )
+  }
+
+
+
+***************************************************
+//local storage..
+
+//react ka local storeg or js ka local storage same hota hain ,ehh actually browser ka hi storage hota hain .
+
+//local storeg in js ...
+
+//ish mein ka hi problem hain value jho bhi reheta hain ohh string value mein reheta hain ..so bohot bar  value ko json vaalue mein conver deconvert karna padata hain...
+
+//https://www.w3schools.com/jsref/prop_win_localstorage.asp
+
+//localStorage.setItem("lastname", "Smith");
+localStorage.getItem("lastname");
+
+// ak hota hain setItem.
+//getItem.
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage-----mdn.
+
+
+  //local storage she sari value lehh kar aoo or ushh value ko ishh tudo mein add kar do.
+
+    useEffect(() => {
+      localStorage
+     
+    }, [])
+
+
+
+  useEffect(() => {
+    const todos = JSON.parse(localStorage.getItem("todos"))
+    if (todos && todos.length > 0) {
+      setTodos(todos)
+    }
+  }, [])
+
+
+  //json ka matlam array bhi ho sakta hain ..srif json ka matlab {} nahi hota haain..
+
+
+  //hum log multiple useeffects ko use kar sakta hain ..
+
+
+   useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todos))
+  }, [todos])
+
+
+    //local storage directly access kar sakta hain ..jab tak server side ke bad nahi hoin raha hain .tab tak,
+
+
+    //localStorage.setItem("lastname", "Smith");
+
+    //setitem  ke time pe bolna ,padta hain key or value ...
+localStorage.getItem("lastname");
+
+getitem pe just key ehh dalna padta hain..
+
+
+//ehh sari vaalue hota hain string mein , lekin hum logoka nee dhota hain aka json value , kiuki j  son value hi hain jho pura structure ko pura reservedd rakhta hain ...
+
+
+
+function TodoForm() {
+    const [todo, setTodo] = useState(" ")
+
+    
+
+    const {addTodo} = useTodo()
+}
+
+//jho bhi data chaiye usetodo she lehh kar aooo.
+
+
+
+//******************************************************************
+
+//Redux.....
+
+//redux documentation..
+//https://redux-toolkit.js.org/
+
+//Redux ak apane ap hi independent state management libary hain..
+
+//redux ------ react-reddux..
+
+//redux ko connection ddne ke liye hum log ehh used karta hain..
+
+
+//History ..
+
+//suppose ham logo ke pass ak inner hain bohot sar eouter ke andar .. or agar koi props ko outer she agar inner mein insert karna hain to koi way nahi tha .
+
+//har aka ko par karke jana padta hain ..
+
+//edhar hum log context api ke jariye mein ak global context banaya or ushke andar sab kuch add karke rakhte the or jarurat time mein ushhe lehh lete the ..
+
+//ak hocks she lehh lete the ..use name ki ..
+
+//
+
+
+
+
+//redux ke pehele tha flux..
+
+//facebook mein ssabshe pehele jho architecture design huya ohh hain flux..
+
+// dataflow///
+
+//context mein bhi itna data flow nahi hota hain jitna redux mein hota hain ..
+
+//dataflow ka kam ehi hota hain ki ...
+//ak hi tara she data store ke anadar jate  value update kare or ,ak hi tara she return ahh jaye ..
+
+
+
+//flux ke anadar dataflow mein bohot dhiyan deya geya ..
+
+//lekin ohh bhi itna achha nahi hain //
+
+//redux ak independent libary hain ehh sabke sath kam kar sakta hain ..
+view ke sath react ke sath or koi bhi js ke libary ke ssath ..
+
+
+//redux thank ..
+
+//redux chorme extension..
+
+//redux achh ahian bohot achha hain or bhi achha kar sakta hain ishh liye aya redux tool kit.
+
+//redux -tool kit tha batter included , hazar kam nahi karna hain simply ohh khud hi sab kuch samhal lega ,,
+
+//abstraction jada hain redux ke andar ..
+
+//store karneke ke bhi moka milta hain ..
+
+
+
+//store ...
+
+//Reducers... -- object jaisha hi hota hain 
+
+//method.
+
+//useselector ..
+
+//usedispatch ...
+
+//create a another project ---- redux project 
+
+//reduxtoolkittodo ..
+
+//same as just create a projec file by using react vite ..
+
+//lekin kaishe kam karega ohh janna hain documnettation she ..
+
+https://redux-toolkit.js.org/
+
+
+
+//here we used two library for installation ..
+
+//why we need to used two library ..
+
+//
+
+//npm install @reduxjs/toolkit
+//npm install react-redux
+
+
+1️⃣ @reduxjs/toolkit (RTK)
+
+What it is: The official, recommended way to write Redux logic.
+
+Purpose: Gives you utilities like configureStore, createSlice, and createAsyncThunk so you can avoid the long, repetitive boilerplate code in plain Redux.
+
+Scope:
+
+Creates the store
+
+Manages reducers
+
+Handles middleware setup (like thunk) by default
+
+Provides tools to write clean, modern Redux code
+
+Without RTK, you’d have to manually configure everything with plain Redux, which is tedious.
+
+2️⃣ react-redux
+
+What it is: The official React bindings for Redux.
+
+Purpose: Lets your React components connect to the Redux store.
+
+Scope:
+
+Provides <Provider> to pass the store down the React component tree
+
+Gives hooks like useSelector and useDispatch so components can read state and dispatch actions
+
+Without react-redux, your Redux store would exist, but React components wouldn’t know how to access it.
+
+🛠 Why you install both:
+
+@reduxjs/toolkit → to create and manage the store + reducers
+
+react-redux → to connect that store to your React app so components can use it
+
+Think of it like:
+
+RTK = builds the store 🏗️
+React-Redux = plugs the store into React 🔌
+
+// in src file we creaate a foldar app and in the app we create another file store .
+
+// store banane ka ak process haain ...
+
+import {configureStore} from '@reduxjs/toolkit';
+
+export const store = configureStore({})
+
+//just create a store ..
+
+
+// next step hota hain .create our reducers..
+
+
+//import { createSlice , nanoid } from "@reduxjs/toolkit";
+
+//nanaoid ka kam hota hain just create a unique id .
+
+////reducers mein ata hain property or function .
+    reducers: {}
+
+
+    // addTodo: (state ,action) => 
+
+    //hamesha do value deg a...
+
+    
+
+
+
+
+
+    //addtodo kuch kuch add karna hain ..
+
+    //add akishe karta hain dispatch she ..
+
+
+
+//store and reducers ehh hain redux ki lekin useselector and usedispatch ehh hain pure react ki..
+//ehh react ki actually wireapp hain ki kish tara she redux ko hum log used kar sakta hain ...
+
+
+
+// dispatch ak reducers ko used karte huye store ke andar change karta hain ..
+store mein value add or change karta hain ..
+
+
+
+//kiu hum log call back used karta hain ..
+
+// hum log directly parentheses used nahi kar sakta hain kiu ki ,ohh direct hi run ho jata hain ,,hum logo ko just ak reference dena hain ,ki jab koi chaye tabhi ohh kam kare ..
+
+
+//************************************************************************************************
+//redux ak alaga chis hain ..
+
+//react redux ak alaga chis hain ..
+
+//redux core  libary hain aur react redux ushka implementation hain ..
+
+wiring karneke liye ta ki react or redux ak sath kam kar sake ..
+
+
+****************************************
+
+//start karta hain store banane she .
+//srote hamesha ak hota hai .. lekin exception bhi hoin sakta hain ..
+
+//jishko keheta  hain single source of truth ..
+
+//import {configureStore} from '@reduxjs/toolkit';
+
+
+import todoReducer from '../Features/Todo/TodoSlice';
+
+export const store = configureStore({
+    reducer: todoReducer
+})
+
+//ak configure store lagta hain ,jishshe ki storeban jata hain, or ushke andar object hain ..
+// key value propert ak or  multiple bhi ohh sakta hai ..
+
+//store ke andar jabbhi value update hogi ohh har tara she value update nahi leta haain ..
+
+//ehh data flow hi nahi hota hain ..
+
+//ish liye har ak reducer ko jarurat hota hain ...
+
+
+//ishh liye hum logo ko bananan hain ka slice ap alag name bhi rakh sakte hoin .
+
+////nanoid make a unique id
+
+import { createSlice , nanoid } from "@reduxjs/toolkit";
+
+
+
+//we just make it a object . we can used array also.
+const initialState = {
+    todos: [{id: 1, text: "Hello World"}]
+}
+
+
+//crate a slice .
+
+//Slice ak reducer ka hi bara version hain ..or reducer  hota hain functionaliy ..
+
+
+const todoSlice = createSlice({
+    name: 'todo',
+    initialState,
+
+    //reducers mein ata hain property or function .
+    //redux tool kit mein hum log srif declaration nahi likhte hain hum likh te hain pura defination..
+    reducers: {
+        addTodo: (state ,action) => {
+            const todo = {
+                id: nanoid(), 
+                text: action.payload
+                //payload ak object  hain .
+            }
+            state.todos.push(todo)
+        },
+
+        removeTodo: (state ,action) => {
+            state.todos = state.todos.filter((todo) =>todo.id != action.payload )
+        },
+
+
+        //udate kaishe hoga ,delete kaishe hoga
+    }
+
+})
+
+
+export const { addTodo, removeTodo } = todoSlice.actions;
+export default todoSlice.reducer;
+
+//createSlice eehi she hum log slice banate hain .
+
+//ak slice bananne ke liye hum logo chaiye tin main chise ..
+******************************
+//name 
+//initialState----- hum log data structure liya hain edhar array .
+//reducer
+
+//context api mein state preserved reheta hain lekin redux mein ohh nahi reheta hain ..
+/////////////////////////////////////
+
+// aassignment hain update button add ka 
+
+
+// last hota hain export karna ..
+
+//
+export const { addTodo, removeTodo } = todoSlice.actions;
+export default todoSlice.reducer;
+
+// export mein hum logo ko lagta hain indivusula functionality ..
+
+//agar 10 reducers hain to 10 reducers hi export karna padta  hain kiuki pata nahi hain konsha reducer used karna hain .
+
+//export karna hain ,kiuki ehh hum logo ko used  karna hain store ke anadar ..
+
+
+//value lheena hain useselector she ...
+\
+
+
+
+
+
+
+
+
+///**********************************************************************************
+
+// here we go for create  a full flezed appp  ..
+//ahh mega project ..
+
+//react hamari front -end library hain ..
+
+//react api handaling mein used hota hain .
+
+//heree we discusss about that what services are we used here ..
+
+// hum edhar used kar raha hain appwrite backend servises ke liy e..
+
+//what is appwrite ..
+
+//Appwrite is an open-source backend-as-a-service (BaaS) platform that helps developers build web, mobile, and Flutter apps faster without writing their own backend from scratch.
+
+🔑 Key Features of Appwrite:
+
+Authentication & Users – Handles login, signup, sessions, JWT, OAuth (Google, GitHub, Facebook, etc.).
+
+Database – Provides NoSQL database collections to store and query app data.
+
+Storage – Lets you upload and manage files (images, videos, docs, etc.).
+
+Functions (Serverless) – Run custom backend logic in multiple languages (Node.js, Python, PHP, etc.).
+
+Realtime APIs – Sync data in real-time across clients (like chats, notifications).
+
+Self-Hosted or Cloud – You can host Appwrite yourself (Docker) or use their cloud version.
+
+🛠️ Why developers use Appwrite:
+
+No need to build authentication, databases, or file storage manually.
+
+Works well with frontend frameworks (React, Vue, Angular) and mobile apps (Flutter, Android, iOS).
+
+Similar to Firebase, but open-source and self-hostable (so you control your data).
+
+👉 In short: Appwrite = Firebase alternative that gives you authentication, database, storage, and serverless functions in one package.
+
+
+//hum inka cloud used karenge ..
+
+//documentation ..
+
+//https://appwrite.io/ go through this link and just sign in ,
+
+
+// we also have appwrite documentation..
+
+//backend hamara sevice jaishe kam karega , 
+
+//login 
+sign up .
+photo upload 
+
+ehh sab me help karega ...
+
+//Tiny mce......
+
+//for documnettation structure and reader ..
+
+// article or jho bhi hain ohh hum log html mein store kar raha hain , lekin html render nahi hota , 
+
+//Render karneke liye parsing karna padta hain ..
+
+//ushke liye used karenge (html react - parser)
+
+//or form ke liye used karenge (reat Hook form)
+
+****************************************
+
+//Maily hum logo ko keya keya lagega ...
+
+
+//appwrite ka account ..
+//documentation.
+//database(article)
+//api ke bare mwein
+//tinymec doc..
+//react hook form..
+
+//tinymce hum logo ko help karega as a visual code editor jaishe ...
+
+// ehh project karneke liye hum logo ko itna sare dependency add karna padta hhain .
+
+ "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tinymce/tinymce-react": "^6.3.0",
+    "appwrite": "^18.2.0",
+    "html-react-parser": "^5.2.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.62.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.8.2"
+  },
+
+  , hum log key akeya lenge ushi jaishe hum log add kar sakta hain ..
+
+
+  ..
+
+
+  //so normally jaishe ak projecct create karke run karate hain oisha hi run kara diya ..
+
+  // ab sabshe important chis hain jho ..
+  *************************
+
+  //Oh hain environement variable ..
+
+//react frontend library hain jho bhi react mein likha jata hain ohh js she shift hota hain brwser ke andar ..
+
+// so jho bhi variable banana hain ohh must be present on the top of the file root..
+
+//how i create a env file ..
+
+//at the root of the file just create a file as .env ...
+
+//in the file we just write 
+REACT_APP_APPWRITE_URL ="test environment"
+
+//ish environment varibale ko hum log kabhi bhi , hum log (production mein or github mein hum log used nahi karti hain ).
+
+// ishh file ko gitignore file ke andar add kar diya ..
+
+
+// ak file hum logo ko bhi chaiye ish liye or ak file create karta hain ..
+
+
+****************
+//.env.sample 
+//ehi file ko hum log shift karenge.
+//// jab hamara file used karneke man hoga tab ehh used karenge .
+
+
+//ab ehh env file ka access kaishe hum log lehh sakte hain , 
+
+// backend mein alag, frontend mein alag, vite mein laag , vite create app mein alag,
+sab mein alag alag reheta hain ..
+
+//ish fille mein koi bhi export nahi hota hain ..
+
+// ak important point ehh hain ki ,env file ka bar hi load hota hain ,so haar time hum (maxmimum time mein humlogo ko file ko close karke open karna padta hain ).
+
+
+//console.log(process.env.REACT_APP_APPWRITE_URL ="test environment");
+
+//agar hum file ko esha  hi run karaya ,,
+console.log(process.env.REACT_APP_APPWRITE_URL ="test environment");
+
+here we got a error ,
+
+process is not define ..
+kiuki variable file process ke anadar hi declare rehe ta hain ...
+
+
+//????
+//REACT_APP_APPWRITE_URL ="test environment"
+
+// hum log edhar react app hi kiu like direct appwrite-url kiu nahi diya ...
+
+//here we want to read documentation ....
+
+
+
+// problem ehh ha ki , agar project file ( react file she banaya huya hain to fir hum log ) REACT_APP_ (kuch bhi name ) 
+ehhh likh ke (process dehh ke access kar sakta hain )..
+
+/// lekin agar project vite she banaya huya hain to fir ush mein  VITE_ then koi bhi project name dehh sakta hain ..
+
+// ehi problem tha udhar ..
+
+// access karneka process hain (import.meta.env.VITE_SOME_KEY)..
+
+
+
+//VITE_APPWRITE_URL ="test environment"
+VITE_APPWRITE_PROJECT_ID=""
+VITE_APPWRITE_DATABASE_ID=""
+VITE_APPWRITE_COLLECTION_ID=""
+VITE_APPWRITE_BUCKET_ID=""
+
+//ehh sab kuch project mein jarurat honge , ehh sab kuch kaha she kaishe ahh raha hain ohh .sab kuch hum log ak wise karenge ..
+
+
+//appwrite mein project create karke udhar , jha ke endpoint ko slect karna hain kiu ki  ohi hain actually 
+APPWIRE_URL- https://fra.cloud.appwrite.io/v1
+VITE_APPWRITE_PROJECT_ID="68a9701d002667a07612"
+
+
+
+******
+VITE_APPWRITE_URL ="https://fra.cloud.appwrite.io/v1"
+VITE_APPWRITE_PROJECT_ID="68a9701d002667a07612"
+VITE_APPWRITE_DATABASE_ID="68a9722b001274930d4f"
+VITE_APPWRITE_COLLECTION_ID="68a97272001acf5ad502"
+
+//collection id dene ke bad , collection ke andar settings mein ak permission place mein jha ke per mission den apadta hain .udhar har aka ko permission dehh jha sakta hain , 
+
+//hum all user ko kara kiu ki jho bhi user register karega ohh total four operation kar payega ,
+
+
+curd operation ,....
+
+//create 
+// Read 
+//Upadate ,
+//Delete..
+
+
+// after all it i craete all atributes in the attribute section..
+
+//after thet we create a index , kiuki index ki baisis mein hum log filter laga sakta hain ...
+
+
+//VITE_APPWRITE_BUCKET_ID="68a9935b000047057c1a"
+
+//actually bucket id reheta hain ,storeg ke andar , udhar bhi ak problem hota hain , just storage  ki setting mein  jha ke .permission dena pdta hain ki kon kon ehh used kar sakta hain ,....
+
+
+
+
+
+
+************************************************************************
+Uses of appwrite ......
+//appwrite mein bohot sar eservises hi hain (Database realted servises hain , auth servises hain , upload servises hain )
+
+//eha per ak concept ata hain ( vender locking ka )
+
+// hum logo ko esha kam karna hain ki ,agar kabhi bhi app code  ko appwrite she bahar nikal na pade to , hamara project achhe she kam kare ,koi problem na ho ...
+***************************************
+
+//concept of sevices..
+//Eha concept ata hain servises ka ...
+
+//what is services ..
+
+//services hota hain ak class ,,oha keya keya chal raha hain ushh mein koi problem nahi hain ,keya keya data chaiye bataoo ,or mera method used karo or kam karo ehi hain .services ..
+
+
+//just known about appwrite documnetation ..
+//https://appwrite.io/docs/products/auth/quick-start
+
+
+
+
+//
+import { Client, Account, ID } from "appwrite";
+
+const client = new Client()
+    .setEndpoint('https://<REGION>.cloud.appwrite.io/v1') // Your API Endpoint
+    .setProject('<PROJECT_ID>');                 // Your project ID
+
+const account = new Account(client);
+
+const user = await account.create(
+    ID.unique(), 
+    'email@example.com', 
+    'password'
+);
+
+
+//kaishe auth karn ahain ..
+
+****************
+//import { Client, Account, ID } from "appwrite";
+
+export class AuthService{}
+
+export default AuthService;
+
+//edhar hum log class kar liya , or sidha hi import kara diya hain ,abhi jho ehh class ko used karega ushko objcet create karna padega ..
+
+// tabhi ohh sari method used kar payega ..
+
+//object banake export kar duin...
+
+
+
+
+//edhar ak problem hain ak hain client or ak hain account
+
+//kiuki sare method account mein hi lagta hain ..
+
+
+
+// object jab create hota hain to konshi method hota hain jidh ke andar functionallity hota hain...
+
+// here we create a constructor ...
+
+******
+
+hum log keya chate haain ....
+
+hum log dependency nahi chate hain ..
+//agar kabhi bhi appwrite change karn ahin to sabhi place mein nahi change krna hain ..
+
+//hum log ak method create kar deta hauin or ushke andar ,appwrite mein jho bhi services hai ushko call karunga , 
+
+
+
+******
+//agar bad mein koi bhi agar server change houa tho jho bhi code change hoga edhar ehh hoga..
+
+//jav bhi agar bad mein , appwrite mein koi bhi authication karn ahin to ehh code hum log directly used kar sakkta hain .
+
+
+//conf.js handles endpoint & project id, so only that file needs updating if server/project changes.
+
+import conf from '../conf.js';
+
+
+import { Client, Account, ID } from "appwrite";
+
+export class AuthService{
+
+    //create two propert .
+    client = new  Client();
+    account;
+
+
+    constructor(){
+        this.client
+        .setEndpoint(conf.appwriteUrl)
+        .setProject(conf.appwriteProjectId);
+        this.account = new Account(this.client);
+    }
+
+    //create a method for .
+    // jho bhi method pass karega ohh ak object dega jish ke andar ehh sab kuch rahega .
+
+    //createAccount() → creates account and logs in immediately.
+
+    async createAccount({email, password, name})
+    {
+        //fail safe
+
+        try {
+
+        const userAccount = await this.account.create(ID.unique(), email, password, name);
+
+        if(userAccount){
+
+    
+ //call another method .
+ //login() → creates email/password session.
+
+          return this.login({email, password});
+        
+        }else {
+            return userAccount;
+        } 
+        
+    }  catch(error){
+       
+            throw error;
+        }
+    }
+
+    async login({email, password}){
+        try {
+           return await this.account.createEmailPasswordSession(email, password);
+            
+        } catch (error) {
+            throw error;
+        }
+    }
+
+
+    //another method ..
+    //getCurrentUser() → correctly returns the logged-in user object.
+
+   async getCurrentUser(){
+    try {
+        return await this.account.get();
+    } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+    }
+
+    return null;
+}
+
+    //delete session.
+    //method logout
+    //logout() → deletes all active sessions.
+
+    async logout(){
+        try {
+            
+          await this.account.deleteSessions();
+        } catch (error) {
+            console.log("Appwrite service :: getCurrentUser :: error", error);
+        }
+    }
+
+}
+
+
+
+
+
+const authService = new AuthService();
+
+export default authService;
+
+*****
+
+
+
+
+
+
+//import conf from '../conf.js';
+
+
+import { Client,  ID, Databases, Storage, Query } from "appwrite";
+
+export class Service{
+
+    client  = new Client();
+    databases;
+    bucket;
+
+
+    //call a constructor .
+    //ehh hain client .
+      constructor(){
+            this.client
+            .setEndpoint(conf.appwriteUrl)
+            .setProject(conf.appwriteProjectId);
+            this.databases = new Databases(this.client);
+            this.bucket = new Storage(this.client);
+
+
+           
+        }
+
+        // agar hum logo ne ehh post karna chaye thho ..
+        //[collection id ] [documnets id {}]
+
+        //create post karke hum log ohi hi kara hain , agar kabhi bhi appwrite change karke mongdb karna hain just mongdb ko call kar leenge ..
+
+        //create post complete 
+
+        async createPost({title, slug, content, featuredImage,status,userId}){
+            try {
+                return await this.databases.createDocument(
+
+                    conf.appwriteDatabaseId,
+                    conf.appwritecollectionId,
+                    slug,
+                    {
+                        title,
+                        content,
+                        featuredImage,
+                        status,
+                        userId,
+
+                    }
+                )
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+             }
+        }
+
+        //update post .//update document .
+
+        async updatePost ({title,content, featuredImage,status}){
+            try {
+                return await this.databases.updateDocument(
+
+                    conf.appwriteDatabaseId,
+                    conf.appwritecollectionId,
+                    slug,
+
+                    {
+                        title,
+                        content,
+                        featuredImage,
+                        status,
+                       
+
+                    }
+                )
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+             }
+        }
+
+// delete document ..// create another method ..
+ 
+       async deletePost ({slug}){
+            try {
+                await this.databases.deleteDocument(
+
+                    conf.appwriteDatabaseId,
+                    conf.appwritecollectionId,
+                    slug,
+
+                  
+                )
+                return true;
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+        return false;
+             }
+        }
+
+
+        //slug ko pass karte huye ak post kaishe lehh sakta huin ..
+        // single post //get single document.
+
+        async getPost (slug){
+              try {
+              return  await this.databases.getDocument(
+
+                    conf.appwriteDatabaseId,
+                    conf.appwritecollectionId,
+                    slug,
+
+                  
+                )
+                
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+        return false;
+             }
+        }
+
+        //agar sab kuch ak sath chhaiye tab  keya kare ..list documnent.
+        //collection id ka jitne bhi documnet chaiye hoga sari ke sari mil jayega .
+
+    // agar sari document lehh liye to jho active nahi hain ohh bhi ahh jaye ga ..
+    //queries kaishe milta hain .
+
+    async getPosts(queries = [Query.equal("status", "active")]){
+        try {
+              return  await this.databases.listDocuments(
+
+                    conf.appwriteDatabaseId,
+                    conf.appwritecollectionId,
+                    queries,
+                
+                    
+
+                  
+                )
+                
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+        return false;
+             }
+        }
+
+        //file upload services // method .
+        //age jha ke ehh file ak separate file mein upload karna hain ..
+
+        async  uploadFile(file){
+            try {
+              return  await this.bucket.createFile(
+
+                    conf.appwriteBucketId,
+                    ID.unique(),
+                    //parameter.
+                    file
+                   
+                
+                    
+
+                  
+                )
+                
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+        return false;
+             }
+        }
+
+
+        //delete file ...
+        //delete file services create successfully..
+        async deleteFile(fileId){
+             try {
+               await this.bucket.deleteFile(
+
+                    conf.appwriteBucketId,
+                    
+                    //parameter.
+                    fileId
+                   
+                
+                    
+
+                  
+                )
+                return true
+                
+            } catch (error) {
+        console.log("Appwrite service :: getCurrentUser :: error", error);
+        return false;
+             }
+        }
+        
+
+        //get file preview....
+        //file preview ..
+
+        getFilePreview(fileId){
+            return this.bucket.getFilePreview(
+
+                    conf.appwriteBucketId,
+                    
+                    //parameter.
+                    fileId
+            )
+        }
+
+
+
+
+}
+
+
+
+const service = new Service()
+export default service;
+
+
+// appwrite hamara taiyar ho geya hain ,, configuration hamara taiyar ho chuka hain ..
+
+//redux bhi edhar include hain ,,, or hum ushke upor bhi kam karenge , kiu ki store ko hamesha pata ho ap logged in ho eya log out hoin..
+
+
+************************************************
+
+//here we go for how we set a  store in redux tool kit ..
+
+
+//ehh store track karegaa sab authentication ko ...
+
+import { createSlice } from "@reduxjs/toolkit";
+
+//user auth hain eya nahi hain ehh store she bar bar pucha jayega ..
+
+const initialState = {
+    status: false,
+    userData: null
+}
+
+const authSlice = createSlice({
+    name: "auth",
+    initialState,
+    reducers: { 
+        login: (state, action) =>{
+            state.status = true;
+            state.userData= action.payload.userData;
+        },
+        logout:(state) =>{
+            state.status = false;
+            state.userData = null;
+        }
+    }
+})
+
+//here the store also ready or reducer also rready.
+//
+export const {login, logout} = authSlice.actions;
+
+export default authSlice.reducer;
+
+
+//store create karna hain ..
+
+import {configureStore} from '@reduxjs/toolkit';
+
+
+const store = configureStore({
+    //
+    reducer: {
+
+    }
+});
+
+export default store;
+
+//fir src ke andar component foldar create karn ahin , fir udhar Header , Footer , file crreate kara hain ..
+
+//or agar har ak file ko bar bar export karne geya tho bohot sare time lage ga ishh liye , ak index file create karke , ush file she directs call ho jaayega ...
+
+// ab app.jsx andar use state ka kam karnna hain ...
+
+import React, { useEffect, useState } from 'react'
+import {useDispatch} from 'react-redux'
+import './App.css'
+import authService from "./appwrite/auth"
+import {login, logout} from "./store/authSlice"
+import { Header, Footer } from "./components";
+import { Outlet } from 'react-router-dom'
+
+function App() {
+
+    //dispatch chaiye .
+  //dispatch ohh combination hain jab apko react ko redux ke sath kam karana hain to ..
+
+  const [loading ,setLoading] = useState(true)
+
+
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    authService.getCurrentUser()
+    .then((userData) => {
+      if (userData) {
+        dispatch(login({userData}))
+        
+      }else{
+        dispatch(logout())
+      }
+    })
+    .finally(() => setLoading(false))
+
+  },  [])
+
+
+  return (
+    <div className="w-screen h-screen bg-gray-400 flex flex-col">
+      <header className="bg-blue-600 text-white p-4">Header</header>
+
+      <main className="flex-grow flex items-center justify-center bg-gray-200">
+        <Outlet/>
+      </main>
+
+      <footer className="bg-blue-600 text-white p-4">Footer</footer>
+    </div>
+  );
+}
+
+
+
+
+
+
+  
+
+
+export default App
+
+
+// or main.jsx ke andar kam karna hain .
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import { Provider } from 'react-redux'
+
+import store from './store/store.js'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+
+  <Provider store={store}>
+    <App />
+    </Provider>
+  </StrictMode>,
+)
+
+
+//********************************
+
+//form 
+
+//email 
+//password
+
+//login button hain .
+
+
+
+//another hoocks hain ..
+
+import { forwardRef } from 'react';
+
+const MyInput = forwardRef(function MyInput(props, ref) {
+  // ...
+});
+
+//forwardRef ka example ..
+
+// ke hum log ak login form bana rahi hain ,ush login form ke anadra hamara input field alag hain ,ohi same input field hum log username bhi or password mein bhi used karenge ,
+
+//login page alaga hain lekin state ke access to lagega na ,reference pass karna padega .
+
+//to eha mein kam ata hain forward ref hoocks ..
+
+
+//**************************************
+
+//login page nahi hum log login componenet bana rahe hain ...
+
+//https://react-hook-form.com/..
+
+//react hoocks form ..
+
+
+//register ak form handeling ka process hain ..
+
+
+
+
+
+
+
+
+
+
+
+
+//******************
+//controller...
+
+//In React Hook Form, the Controller component is used when you want to integrate controlled components (like Material UI’s TextField, React-Select, Ant Design inputs, etc.) with React Hook Form.
+
+Normally, React Hook Form works best with uncontrolled components (using register). But for components that don’t expose a native ref or value directly, you use Controller.
+
+
+
+
+
+
+
+******************
+//fix aall the commnet when i revice the all session another time .
+
+//agar bad mein koi bhi agar server change houa tho jho bhi code change hoga edhar ehh hoga..
+
+//jav bhi agar bad mein , appwrite mein koi bhi authication karn ahin to ehh code hum log directly used kar sakkta hain .
+
+//conf.js handles endpoint & project id, so only that file needs updating if server/project changes.
+
+
+
+
+
