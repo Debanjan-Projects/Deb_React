@@ -732,6 +732,14 @@ web ke dom ko manupulate karneke liye .
 
 
 //// import { jsx as _jsx}  from "react/jsx-dev-runtime.js" ehh kiya jh a sakta hain ...ehh open sorce hain.
+
+
+//Built in property that belong on the element,
+type,
+key,
+ref,
+props,
+
  
 
  //https://github.com/facebook/react ---source link..

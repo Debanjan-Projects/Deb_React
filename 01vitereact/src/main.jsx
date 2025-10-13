@@ -23,6 +23,10 @@ return(
 
 
 
+
+
+
+
 //keya edhar or bhi react element add kar sakta huin.
 
 // const reactElement = {
@@ -47,6 +51,8 @@ return(
 
 //create a next element.....
 
+//directly return.
+
 // const anotherElement = (
 //     <a href=" https://google.com" target='_blank'>Visit the google page</a>
 // )
@@ -69,18 +75,26 @@ const anotheruser = "chai aur react"
 
 //evaluted expression ke andar ap if else nahi likh sakta hain.
 
+
+
+
+
+
+
+
 //third element..
 const reactElement = React.createElement(
    
    
     //ehh bhi ak object leta hain lekin kish tara she deta hain ehh bhi pre define hokar rakhha hain.
 
+    //React.createElement ehh apne ap hi inject ho jata hain ,or eshe jho inject karta hain , ohh hain babble of react.
 
 
     //special syntax hota hain.
     'a',
     {
-        href:'https://google.com',target:'_blank' //ehh ak object hota hain.setattribute hota hain lekin nam nahi deta hain humlog.
+        href:'https://google.com',target:'_blank' //ehh ak object hota hain.setattribute hota hain lekin ushka nam nahi deta hain humlog.
     },
 
     'click me to  visit google',
@@ -103,12 +117,14 @@ createRoot(document.getElementById('root')).render(
 
     
         // <reactElement/>
-
+//capital..
         //  <ReactElement/>
 
         // reactElement()
 
-        // ReactElement
+        // ReactElement()
+
+        //ReactElement
 
         // anotherElement //ehh srif ak object mein convert hoga.
        
