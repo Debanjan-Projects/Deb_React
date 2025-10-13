@@ -13,6 +13,8 @@ It’s component-based, which means your UI is built using small, reusable piece
 //hype,job ,trend, build ui.
 //makes easy to manage and build complex  frontend.
 
+// actually koi bhi front complex application banane ke liye hum log react ussed karte hain ,
+
 //ak button click karne mein do or tin place mein changes ho raha hian.
 
 *************************************************************
@@ -40,6 +42,8 @@ let, const, map(), filter(), forEach(), etc.
 //most project don't need  react in initial phase..
 
 ****************************************************************************************
+
+
 //why react was create ..
 
 //React was created by Jordan Walke, a software engineer at Facebook, and was first released in 2013. It was developed to solve real problems Facebook faced with building and maintaining complex, interactive user interfaces.
@@ -51,15 +55,41 @@ let, const, map(), filter(), forEach(), etc.
 //facebook main message padhne ke bad bhi nahi notification nahi jha raha tha..
 
 
-
-//state control karta hain js..
+*******************************************
+//state control karta hain js.
+.
 //ehh state keya hain ----state ak fansi num deya jata hain sari variable ke liye .
+
 //jho message ahh raha hain ohh kaha store ho raha hain ,kishi varibale kki state mein ho raha hain.
 
 //ul manage karta hian dom.
 //dom or js ka state ke bich mein hona hain bat, or dono hona chaiye tha sync but ehh dono nahi ho rahe the .
 
 //eha she react shuru ho rahi thi..
+
+
+
+//React was originally created by Jordan Walke, a software engineer at Facebook (now Meta).
+
+Here’s a quick summary of the founding details:
+
+🧑‍💻 Founder / Creator: Jordan Walke
+
+🏢 Organization: Facebook (Meta)
+
+📅 Initial Release: May 29, 2013 (open-sourced on GitHub)
+
+⚙️ Initial Purpose: To simplify building dynamic and interactive UIs, especially for Facebook’s news feed and Instagram.
+
+🌐 Key Contributors in Early Development:
+
+Jordan Walke – Creator of React
+
+Tom Occhino – Engineering manager who helped bring React to Facebook’s frontend team
+
+Pete Hunt – Helped open-source React and advocate for it publicly
+
+Christopher Chedeau (vjeux) – Worked on React’s early adoption and design principles
 
 *************************************
 
@@ -168,12 +198,12 @@ reload nahi hoga tab to url need paddega ,agar page hi nahi reload ho raha hain 
 //router (react dont have router)
 //state management (react dont have state management)     / /lekin ab hain.   
 
-
+***************************
 =>redux ,foolkit, zustand,context API
 
 //class based component.
 =>legacy code.
-
+*******************************
 //BAAS apps // backend as a service....
 
 ==>social media clone,e-commers app.
@@ -181,6 +211,7 @@ reload nahi hoga tab to url need paddega ,agar page hi nahi reload ho raha hain 
 //firebase, superbase appwrite,
 backend as a service ka..
 sidha ee backend use kare ..
+*************************
 
 ..freeapi .app ..// open source by hritesh sir..
 
@@ -195,10 +226,15 @@ sidha ee backend use kare ..
 
 //react is not a commplete solution in most case.
 
-==> no seo (h1 tag utna achha she create nahi hota .browser generate karta hain html or css ko.), browser render of js, no routing.     //problems ..
+==> no seo (h1 tag utna achha she create nahi hota .browser generate karta hain html or css ko.), browser render of js, no routing option.     //problems ..
 
+
+***********************
 //framework..
 //next js , Gats by ,Remix.
+
+
+//next js , achha frame work hain , ak hi place mein back end likh lo or front end bhi likh lo ....
 
 
 //its all about kaishe hum log raect ka journey karenge ..
@@ -218,9 +254,12 @@ sidha ee backend use kare ..
 ******************************************************************
 //about react..
 
+//agar framework chor ke jsut normal react ke upar kam karna hain tho , just hum log ohh used karenge , kuch bundaler ke besis mein ohh hota hain , vite ....or percel..
+
+
 //react ak library hain ..
 
-//react===> react-dom..===>react native.
+//react(library)===> react-dom(ehh bhi library hain)..===>react native.
 
 //agar web site se kam karna hain to hum log used karenge react or 
 //react-dom. //react documenttation......
@@ -249,10 +288,14 @@ jab app node ko install kare the to ap ke pass or ak pakage ati han ohh hain npm
 
 //basic way hain react application banena ka ..ohh hain.
 
-
+****************************
 //create-react-app.
 
 //react-app.-- ak utility ..
+
+//ishka ak problem jho hain , ehh jho kuch kam ka nahi hain ohh bhi dehh deta hain , bohot bara bundle ho jata hain ,
+ish liye ,
+
 
 //utility matlab hain ak software .
 
@@ -260,6 +303,9 @@ jab app node ko install kare the to ap ke pass or ak pakage ati han ohh hain npm
 
 
 
+
+// main entry point hain packet .json,
+//
   "name": "01basicreact",
   "version": "0.1.0",
   "private": true,
