@@ -337,8 +337,11 @@ ish liye ,
 
 
 
-  //use one time npm run build for your experience
+  //use one time npm run // build for your experience
+
   //jitna bhi js ap react mein likhen ge ohh sab eha convert ho jaye ga .
+
+  //jab ehh ehh production mein deploye hota hain ,
   //ehh build folder hi serve hot ahain sari user ko nahi ki src folder.
 
   //create react app achha way nahi hain ..kiu ki ehh bohot jada time leta hhain.
@@ -366,6 +369,9 @@ ish liye ,
 
   // after installation just run the command npm run dev..
 
+
+
+******************************
   //to hum log ehh sikhe ki kish tara she react ki through project banaya jata hain ..
   
   //or kish tara she vite ke through project banaya jata hain.
@@ -381,6 +387,8 @@ ish liye ,
   //,run karaneke prayash khud she kare or ,fir terminal pe jha kke run karaiye...
 
   //ehh hota hain react ke through project ..
+   //npm run start .. for run the project.
+     //app.js ke andar sab kuch kam hoga ,
 
   ///////////////////////////////////////////////////////////////////////////////
 
@@ -394,6 +402,13 @@ ish liye ,
 
 
   //do foldar ka file name hi alag hain ,ehi library hain .agar framework hota tho esh naming ke liye pura project hi crash kar jata ..
+
+  //app.jsx ke andar sab kuch kam hoga ,
+
+  //npm run dev ....for start the project.
+
+
+ 
 
 **********************************************************************************
   //koi bhi ak project she hum log start karenge ..
@@ -442,6 +457,9 @@ ish liye ,
 
 //in src har time index.js and app.js main hota hain ,enka name kuch bhi ho sakta hain.
 
+//index page ak hi hoga , ish liye eshe spa kaha jata hain ..
+
+
 
 //index.js ke andar hum log do library lehh liya hain ak to ,react and reactdom,esh dono she hi sara kam hota hain.
 web ke dom ko manupulate karneke liye .
@@ -452,13 +470,13 @@ web ke dom ko manupulate karneke liye .
 
 //react native react ka ak implement taion hain mobile apps pe.
 
-
+//***************
 //website ke andar dom hota hain ,
 
 //lekin react apna dom create karta hain ,..
 //.dom ak data stucture hota hain.
 
-
+****************
 //apna browser ka ak  dom hota hain ,,lekinn koi kishiko apna dom banane ke liye nahi mana kar raha hain..
 
 //so react apna dom create karta hain .jishko hum log  vartual dom  keheta hain or jishko main dom she compare kara jata hain.
@@ -466,11 +484,14 @@ web ke dom ko manupulate karneke liye .
 //ki kitna unke bitch difference hain .fir main dom ko ohi o0hi change klarta hain jho jho jarurat padta hain.
 
 
-
+******************
 //ushhh reactdom ke andar ak method hota hain create root...
 
+******************
+//lekin  root kaha per banaye..
 
-//leki  root kaha per banaye..
+//getelement by id 
+//or ak element choose kara jishka id root hain,
 
 //elemeny search kara jishki id root hain ....
 
@@ -479,6 +500,7 @@ web ke dom ko manupulate karneke liye .
 
 
 
+***************
 
 //render karo..
 
@@ -494,15 +516,18 @@ web ke dom ko manupulate karneke liye .
 //custom tags ahh kaha she ...
 
 
-//hum ne dekha hum go srif root pein  render karaya app,,
+//hum ne dekha hum log srif root pein  render karaya app,,
 
+
+******************
 //lekin ehh app hota keya hain.
 
 //app ak normal function hota hain jho ak html ko return karta hain or just mein fnction ko export kara hain. 
 
+//programming capability ahh chuka hain , html ke  andar ,
+//react script , hain ohh index .html mein main .jsx ko load karta hain ,
 
-
-
+*****************8
 //so react hum logo ko ak interesing syntax diya hain ki ap function lo, or ushh function ke andar app html ko return kar do aur main  ushh html ko rendar kara dunga .
 
 //to hamari js ke throuh html likh pa raha hain..
@@ -573,7 +598,7 @@ web ke dom ko manupulate karneke liye .
 
 
  
-
+//all eventual problem //same problem ssolution.
 
 <>
 <Deb/>
@@ -607,8 +632,15 @@ web ke dom ko manupulate karneke liye .
 
 //lekin agar html return hoya to jsx hi rakhe ...depend karta hain ap konshi libeary used kar raha hain./.
 
+//react just ak script add karana hain , or ushko control kar raha hain , ak to rreact , or ak hain react dom....
 
+//react apna ak dom banake rakhta hain, ohh react dom hain .
+
+
+********************
 //behind the sence keya hota hain ..
+
+
 
 //eror kaha atio hain ..
 
