@@ -17,8 +17,9 @@ function customRender (reactElement ,container){
 
     // container.appendChild(domElement) //container ke andar add karna hain .through appendchild.
 
-        ///////////////////////////////////////////////////////////////////
-
+     ///////////////////////////////////////////////////
+    //   ***********************
+    
     //eha ak problem hain agar third arttribute ahh jaye to proble hain agar ak attribute hain to problem hain.
 
 
@@ -46,6 +47,10 @@ for (const prop in reactElement.props) {
 
 
 
+
+
+
+
 // jho HTMLUListElementm function mein return kara hain .ohh react ko kaishe dekhta hain. react ushe compile karneke bad kaishe dekhta hain...
 
 
@@ -69,7 +74,7 @@ const reactElement = {
 
 
 
-
+//react grab kar raha hain .
 const mainconatainer = document.getElementById("root") // root ko grab kar raha hain.
 
 //query selector mein class or id ka sysbol diya jata hain lekin getelementbyid mein nahi diya jata hain srif name hi mark kara jata hain.
@@ -82,6 +87,10 @@ const mainconatainer = document.getElementById("root") // root ko grab kar raha 
 // render kaishe kare ,ishh elemene ko add karde root ke andar.
 
 
+
+
+
+//ak method hoin jho method ishko render kar de...
 //ab ishko render karna hain.
 //render// add kar de root ke andar..
 customRender(reactElement , mainconatainer) //keya add karu or kaha per add karu .
