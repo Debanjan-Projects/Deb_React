@@ -1934,9 +1934,13 @@ const copyPasswordToClipBoard = useCallback(() => {
 
 //converted usd to inr.........
 
+//eshar hum log dekhenge , ak remaxable, resusable ,componenet ko ,
+
 //create a apna hoocks ..ak custom hoocks banate hain ....
 
-//to ak custom hoocks banane ke liye hum ne src file ke andar ak new folder banaya jishka name hain ..hoocks or ushke andar ak file banaya jishka name hain useCurrencyInfo .js....... 
+//to ak custom hoocks banane ke liye hum ne src file ke andar ak new folder banaya jishka name hain ..
+
+//hoocks or ushke andar ak file banaya jishka name hain useCurrencyInfo .js....... 
 
 //ak achha practics hain ki agar ak file jsx rteturn kare tab hi oush file ka name jsx ke save karna hain ..lekin edhar ehh customas hoocks are not rtetuirn the jsx so u just save this file name as a js file..
 
