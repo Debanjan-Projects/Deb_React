@@ -1587,6 +1587,13 @@ onClick={() => setcolor("red")} //ehar just ak call back function kam kar raha h
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+//random text generate , e=when page reload , length updationmein passwork ka length bad raha hain ,
+
+//number bhi hain ,character mein bhi hain ,
+
+
+
 //new project..
 //aki method ko bar bar used karn ahain to ushko ..normal hi used kar de ki koi optimizations way bhi hain.
 //eha par hi jho concept ati haion ohh hain memorization ki concept.
@@ -1597,6 +1604,8 @@ onClick={() => setcolor("red")} //ehar just ak call back function kam kar raha h
 // copy jab click kar raha hain tab srif ohi text hi copy kar raha hain.
 
 //eha per bohot sare input place hain lekin ohi kaishe copy kare ...
+
+//this project create by vite .
 
 *********************************************************************************  
 1.kish  tara she method ko hum log page refresh karneke ke time pe run karaye ..or without refresh bhi run karaye..
@@ -1653,7 +1662,10 @@ onClick={() => setcolor("red")} //ehar just ak call back function kam kar raha h
 //use call back react hoocks..... 
 
 //useCallback
+
 //useCallback is a React Hook that lets you cache a function definition between re-renders.
+
+
 
 its hookc ko used karta hain like ishh tara ...
 
@@ -1731,7 +1743,7 @@ setvalue bhi control karta hain..
 //ehh hoocks bphot interesting hota hain...
 
 //useEffect
-useEffect is a React Hook that lets you synchronize a component with an external system.
+useEffect is a React Hook that lets  synchronize a component with an external system.
 
 
 //used ----almost same as usecallback ..
@@ -1793,6 +1805,7 @@ Updating state based on props
 //callback...
 
 function  ko only run karneke liye responsible nahi hain . memorise karta hain, optimize karta hain ... ushko cache mein rakhta hain.
+
 //sabkuch hi cache mein rakhna hain...
 
 //so eh jho call back hain or eshka jho dependecy array hain ishh ke sath useeffect ki dependency array ko ak mat samajh na....
@@ -1911,6 +1924,7 @@ const copyPasswordToClipBoard = useCallback(() => {
 
 
 //edhar hamara ehh wala project khatam hota hain...............
+
 ***************************************************************************************************************
 
 
