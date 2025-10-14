@@ -1403,7 +1403,7 @@ Read-only?	✅ Yes, they are immutable inside child
 
  //ishh tara she hum log array bhi pass kar sakta hain.....
 
- //hum log ak component she or ak component mein value pass kar sakta hain. or ohh value recerive karneke liye .javbhi hum log card mein ohh function declare kare tab ushme ohh props add or access rakhna hain....
+ //hum log ak component she or ak component mein value pass kar sakta hain. or ohh value retrive karneke liye .javbhi hum log card mein ohh function declare kare tab ushme ohh props add or access rakhna hain....
 
  //ehh actually property hain ..ehh by default react ishko [props ] keheta hain..
 
@@ -1477,10 +1477,11 @@ function App() {
 
   //its not about setcounter ..../// its happend beacuse of usestate.
 
-  //usestate jitni bhi updaye bhejna hain ui mein naki ui mein also variable mein..unko batches mein vejta hain...
+  //usestate jitni bhi updates bhejna hain ui mein naki ui mein also variable mein..unko batches mein vejta hain...
+
   //fiber  definng algorithm ,jho abhi or bhi more secure ho chuka hain.or control ahh getya hain..ohh update ko batches mein varta hain or var deta hain ki ehh kam kardo..
 
-  //actually aki counterbar bar update ho raha hain..
+  //actually aki counter bar bar update ho raha hain..
   aki kam bar bar ho raha hain..
 
 
@@ -1493,11 +1494,11 @@ function App() {
 
   //setcounter(prevcounter)...
 
-  //prev counter actually existing stste deta hain..
+  //prev counter actually existing state deta hain..
 
   //set counter ke andar ak call back milta hain ..ak call back accept karta hain..
 
-  //srtcounter(() => {})
+  //setcounter(() => {})
 
   //ehh ak call back hain ..ahh ak hidden features hain. ak function ke andar call back accept karta hain..
 
