@@ -865,6 +865,9 @@ props,
 
 //ehh srif ak reference holdar hain..
 
+
+
+
    ///////////////////////////////////////////////////////////////
 
 //changes propogate kaishe kara jata hain react ke andar.
@@ -887,6 +890,9 @@ add value ke adnar 20 ke upor nahi jaye..
 
 
 
+
+
+
 //***********************************************************************************************
 
 //vartual dom ke ..
@@ -900,14 +906,14 @@ add value ke adnar 20 ke upor nahi jaye..
 
 //main dom ko or apne dom ko compare karta hain. uni chis ko update kata hain jho ki actully mein ui mein update huye hain..
 
-//lekin apna browser pura dom ko remove karta hain or fir pura dom ko repaind karta hain.ishiko page reload keheta hain..
+//lekin apna browser pura dom ko remove karta hain or fir pura dom ko repaint  karta hain.ishiko page reload keheta hain..
 
 //web stucture  do barashe taiyar ho raha hain.
 
-
+********************
 //vertual dom ..mein ap pura ke pura dom ko track kar sakta hoin pura tree structure mein,or jho jho value change huyi hain ushko nikal ke firshe laga deta hain..
 
-//js ak apna pur atrack rakhta hain,ak virtual tree dom banata hain or ushmei update karta hain.
+//js ak apna pura track rakhta hain,ak virtual tree dom banata hain or ushmei update karta hain.
 
 //kuch element depend hain network ke upor... ap jabhi koi element ko update karne jate ho ki network ki update ahh jata hain..
 
@@ -991,7 +997,11 @@ https://github.com/acdlite/react-fiber-architecture source url///////
 
  //A high-level description goes something like this: when you render a React application, a tree(js ke andar ak tree banate hain ehh ohi tree ehh hain.)
  
-  of nodes that describes the app is generated and saved in memory. This tree is then flushed to the rendering environment — for example, in the case of a browser application, it's translated to a set of DOM operations. When the app is updated (usually via setState), a new tree is generated. The new tree is diffed with the previous tree to compute which operations are needed to update the rendered app.
+  of nodes that describes the app is generated and saved in memory.
+  
+  //jsx ke andar ak tree banaya jata  hain , ehh ohi tree ka bat kar raha hain ,
+  
+   This tree is then flushed to the rendering environment — for example, in the case of a browser application, it's translated to a set of DOM operations. When the app is updated (usually via setState), a new tree is generated. The new tree is diffed with the previous tree to compute which operations are needed to update the rendered app.
 
 
 
@@ -1003,7 +1013,7 @@ Diffing of lists is performed using keys. Keys should be "stable, predictable, a
 
 
 
-//Reconciliation versus rendering:
+//Reconciliation verces rendering:
 
 //The DOM is just one of the rendering environments React can render to, the other major targets being native iOS and Android views via React Native. (This is why "virtual DOM" is a bit of a misnomer.)
 
@@ -1055,7 +1065,7 @@ work
 
 
 
-
+***************
 //What is a fiber?
 //We're about to discuss the heart of React Fiber's architecture. Fibers are a much lower-level abstraction than application developers typically think about. If you find yourself frustrated in your attempts to understand it, don't feel discouraged. Keep trying and it will eventually make sense. (When you do finally get it, please suggest how to improve this section.)
 
@@ -1102,7 +1112,8 @@ work
 
 
 
-
+***************************
+//it is too much complex.
 ///Structure of a fiber
 Note: as we get more specific about implementation details, the likelihood that something may change increases. Please file a PR if you notice any mistakes or outdated information.
 
@@ -1156,7 +1167,7 @@ The child fibers form a singly-linked list whose head is the first child. So in 
 //If a fiber has multiple child fibers, each child fiber's return fiber is the parent. So in our example in the previous section, the return fiber of Child1 and Child2 is Parent.
 
 
-
+*****************************
 //pendingProps and memoizedProps
 Conceptually, props are the arguments of a function. A fiber's pendingProps are set at the beginning of its execution, and memoizedProps are set at the end.
 
@@ -1164,7 +1175,7 @@ Conceptually, props are the arguments of a function. A fiber's pendingProps are 
 
 
 
-
+************************8
 //pendingWorkPriority
 A number indicating the priority of the work represented by the fiber. The ReactPriorityLevel module lists the different priority levels and what they represent.
 
@@ -1179,7 +1190,7 @@ A number indicating the priority of the work represented by the fiber. The React
 
 //The scheduler uses the priority field to search for the next unit of work to perform. This algorithm will be discussed in a future section.
 
-
+***********************************
 
 //alternate
 
@@ -1210,7 +1221,7 @@ Conceptually, the output of a fiber is the return value of a function.
 //The output is what is eventually given to the renderer so that it can flush the changes to the rendering environment. It's the renderer's responsibility to define how the output is created and updated.
 
 
-
+***********************
 //Future sections
 That's all there is for now, but this document is nowhere near complete. Future sections will describe the algorithms used throughout the lifecycle of an update. Topics to cover include:
 
@@ -1231,7 +1242,9 @@ That's all there is for now, but this document is nowhere near complete. Future 
 
 
 
-//*********************************************************************************************
+
+
+*********************************************************************************************
 
 //props ...
 
