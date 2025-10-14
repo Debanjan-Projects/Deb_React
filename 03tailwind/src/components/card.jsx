@@ -1,12 +1,22 @@
 //just press rfce..
+//react functional compoenent dehh deta hain .
 
+
+//propss menas property ..
 
 import React from 'react'
+
+//edhar btn text dena tha ,edhar default value bhi dehh sakte hian , visit me ..
 
 function card({username }) {
   console.log(username);
   // console.log(props);
   
+
+  //props ka destructuring kar liya hain , ishliye eha humlog direct username likh pa raha hain .
+
+  //this.username - har place mein nahi likhna pad raha hain , direct username likh pa raha hain ,
+
   return (
   <div className="max-w-xs p-6 rounded-md shadow-md bg-black mb-6 ">
         <img

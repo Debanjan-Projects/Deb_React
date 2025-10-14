@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 import Card from './components/card'
@@ -19,10 +18,14 @@ function App() {
 
 
 
+
+  //tailwind mein jha ke card componenet utha liya hain ,eha card create kara hain ,
   // card ko cut karke ak neya hi component bana le ..
 
 
   return (
+
+    //return the fragment.
     <>
 
 
@@ -37,6 +40,20 @@ function App() {
 
    <Card username = "Debanjan Roy"   sumObj = {myObj} sumArr = {myArr} />   
    <Card  username= "Babai" />
+
+
+   {/* <Card username = "Debanjan Roy"   btnText = "Click Me"
+    sumArr = {myArr} />   
+   <Card  username= "Babai" btnText = "visite Me" /> */}
+
+
+
+// props pass karna hi srif kam nahi hota hain ,pros ko handel bhi karna hota hain ,
+
+
+
+
+
       
     </>
   )

@@ -1244,6 +1244,15 @@ That's all there is for now, but this document is nowhere near complete. Future 
 
 
 
+**************
+//tailwind add usin tailwind documentation..
+//by using vite ...
+
+//tailwind content , index mein bhi search karta hain , or source mein bhi search karta hain ,
+
+
+
+
 *********************************************************************************************
 
 //props ...
@@ -1254,9 +1263,15 @@ That's all there is for now, but this document is nowhere near complete. Future 
 
 //or ushko bar bar use kar liya jaye ..
 
+
+
 // genral jho design or concept hota hain web design ka .ush mein hota hain ,html ko alag jaiga rakha jayega ,css ko alag she rakha jayega  or  js ko alag se rakkha jayega..
 
+
+
 //lekin react ehh trteditional mindset she nahi jata hain..react mein kaha jata hain.
+
+
 
 //technology ke base mein app chiso ko segricatye mat karo. separate karo basis pe keya ohh kam kar raha hain.
 
