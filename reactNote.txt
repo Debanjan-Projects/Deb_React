@@ -1506,7 +1506,10 @@ function App() {
 
   //prevcounter = ((prevcounter ) => prevcounter + 1);
 
-//// jho call ki through ata hain ohh  complete hone ke bad hi ata hain...
+//// jho callback  ki through ata hain ohh  complete hone ke bad hi ata hain...
+
+//eha previous state hi used kar raha hain , then sstate update ho sakta hain ....
+
 
 
 
