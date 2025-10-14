@@ -8,6 +8,8 @@ import './App.css'
 
 function App() {
 
+  //hoocks apne ap hi ak method hain ,
+
   const [amount, setamount] = useState(0)
 
   const [from ,setfrom] = useState("usd")

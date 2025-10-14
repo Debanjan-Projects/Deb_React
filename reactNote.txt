@@ -1972,6 +1972,9 @@ const copyPasswordToClipBoard = useCallback(() => {
 //then hum log used karta hain .then or .then ke andar milta hain ..callback function.
 
 
+
+//date ki require hain eya nahi?...
+
 // .then((res) => res.json()) //convert to json format..
         .then((res) => )
 
