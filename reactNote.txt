@@ -1517,10 +1517,14 @@ function App() {
 
 now we start creating projects........
 
+//craete the projects using vite ..
+
+****************
 //to ish project mein hum log dekh ki color change ho raha hain ..its means color kishi na kishi variable mein store hain...
+
 //or srif variable nahi color ui mein bhi jha raha hain ..its means hum logo ko chaye ak stste.
 
-
+*************************
 //const ..hum log direct color nahi likh sakta hain ..ush ko array mein likh na hain.
 
 //eshob ayega usestate she ..

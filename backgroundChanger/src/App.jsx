@@ -2,7 +2,11 @@ import { useState } from "react"
 
 
 function App() {
-  
+ // here we need to store the color in a variable,
+ //or srif variable nahi color ui mein bhi jha raha hain its means hum logo ko chaye ak state .
+
+
+ //using usestate hoocks .
   const [color,setcolor] = useState("#36a2c6")
 
   return (
@@ -73,3 +77,6 @@ function App() {
 }
 
 export default App
+
+
+//actually onclick ak unique and aglag hi method hain ,onclick , expect karta hain ,ki ap ushko ak function dogee , but edhar hug log deh raha hain reference of the function , lekin parameter pass nahi kar payoge ,agar directly pass kar diya , tab function jho return karega ohh milta hain , ohh onclick ko  need nahi hain ,onclick ko to function chaiye ,
