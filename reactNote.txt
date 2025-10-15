@@ -2715,6 +2715,8 @@ export default UserContext;
 
 //andar jitna bhi context banaoo ohh componenet usercontext ke through sari deta lehh sakta hain ..
 
+
+*****************
 //how create a user context ...
 
 import React from "react";
@@ -2772,6 +2774,10 @@ export default App
 //app ke anadar jho bhi componenet app lenge ohh componenet ke bashh direct hi access milega...
 
 **********************
+*********************
+**************************************************
+
+
 
 
 //first componenet login.jsx mein import karana padega ..
@@ -2839,6 +2845,11 @@ export default {
   plugins: [],
 }
 
+
+
+
+
+************
 //after fix it its work properly ..
 
 //explanation is in the button..
