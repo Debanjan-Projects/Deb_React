@@ -2929,7 +2929,7 @@ and here react first part is complete now ..turn into second part ....
 
 // here also we start from the context api...
 
-
+*******************
 //here we create  a todo list ,
 
 //where we have a input field(text field) ... 
@@ -2940,7 +2940,9 @@ and here react first part is complete now ..turn into second part ....
 
 
 
+*****************
 
+//context api , directly available hota hain ,api format mein hoocks format mein ,
 
 //todos: [
         {
@@ -3048,7 +3050,7 @@ hamara componenet koi bhi ho lekin value hum log ehi she hi lungga ...
 
 //local storeg in js ...
 
-//ish mein ka hi problem hain value jho bhi reheta hain ohh string value mein reheta hain ..so bohot bar  value ko json vaalue mein conver deconvert karna padata hain...
+//ish mein ka hi problem hain value jho bhi reheta hain ohh string value mein reheta hain ..so bohot bar  value ko json vaalue mein convert eya  deconvert karna padata hain...
 
 //https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
@@ -3070,7 +3072,7 @@ localStorage.getItem("lastname");
     }, [])
 
 
-
+************************
   useEffect(() => {
     const todos = JSON.parse(localStorage.getItem("todos"))
     if (todos && todos.length > 0) {
@@ -3096,6 +3098,8 @@ localStorage.getItem("lastname");
     //localStorage.setItem("lastname", "Smith");
 
     //setitem  ke time pe bolna ,padta hain key or value ...
+
+    
 localStorage.getItem("lastname");
 
 getitem pe just key ehh dalna padta hain..

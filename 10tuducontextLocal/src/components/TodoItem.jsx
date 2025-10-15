@@ -2,20 +2,33 @@ import React from 'react'
 import { useState } from 'react'
 import { useTodo } from '../contexts/TodoContext'
 
+//context lehh ke ana hain kiu ki ushi she hi sari value ayegi .
+
+//using use state for edit mode and todo message . 
+
 function TodoItem({todo}) {
     const [isTodoEditable, setIsTodoEditable] = useState(false)
     const [todoMsg, setTodoMsg] = useState(todo.todo)
 
+
+//from use todo.
     const {updateTodo, deleteTodo, toggleComplete} = useTodo()
 
+
+//edit todo function.
     const editTodo = () => {
         updateTodo(todo.id, {...todo, todo: todoMsg})
         setIsTodoEditable(false)
     }
 
+
+    //toggle complete function.
+
     const toggleCompleted = () => {
         toggleComplete(todo.id)
     }
+
+    //rendering part .
 
   return (
     <div
@@ -26,6 +39,8 @@ function TodoItem({todo}) {
         checked={todo.completed}
         onChange={toggleCompleted}
         />
+
+        
         <input type="text" 
         className={`border outline-none w-full bg-transparent rounded-lg ${isTodoEditable ? "border-black/10 px-2" : "border-transparent"}`}
         value={todoMsg}
