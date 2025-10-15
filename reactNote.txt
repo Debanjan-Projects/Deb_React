@@ -2916,6 +2916,9 @@ Changing to "class" wired the switch to actually work. ✅
 
 
 and here react first part is complete now ..turn into second part ....
+
+
+
 ****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 
 
@@ -2983,7 +2986,7 @@ hamara componenet koi bhi ho lekin value hum log ehi she hi lungga ...
 //aksar ak folder ke andaar index file banaya jata hain kiu ki ,har ak file ko import karana hain .. or koi bhi file ko jarurat wise import kar lena hain ..
 
 
-
+**************
 //here in app.jsx mein hum log used karenge state ...usestate ...
 
 //basic functionality hain add karna hain value ..
