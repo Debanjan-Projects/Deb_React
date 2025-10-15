@@ -2542,6 +2542,9 @@ after complete it now want to create another one commponent github ..
     //ehh context start hota hain props she agar ap props ko smajh te hain tabhi ap ,context ko samjhge ... 
     //context api ...
 
+    //further version , hain redux and redux tool kit..
+
+
     //full concept keya actually karna cha raha huin ..
 
     //hum logoke pass ak hain ,,suppose i create a card , and i aalready i haave a app ,and by using this app we want to put a data in the card ,
@@ -2589,26 +2592,64 @@ har  aka mein daata traversing karana padega ..
 
 //eha she directly data puch sakta hain ...
 
+******************
+
 
 //or ishko keheta hain prop drilling ...
 
+//Prop drilling happens when you need to pass data from a parent component to a deeply nested child component, and you have to pass it through intermediate components that don’t really need that data.
 
+
+***********************
 
 
 // context api akela nahi hain or bhi library hain ..
 
 //context api associate hain pure react she kiuki ehh react ki bahar exist nahi karta hain ...
 
+//Context API is a React feature that lets you share data across the component tree without having to pass props through every level (avoiding prop drilling).
+
+******************************
+
 //redux........
 
 //redux ke kam hota hain ehh jho state management hoin raha hain ,its means ehh jho data transfer ho raha hain ushko organized way mein karna ..
 
+*************************
+
+//redux..
+//Redux is a state management library for JavaScript apps, often used with React.
+It helps you manage global state in a predictable way, especially when your app has many components that need to share and update data.
+
+*************
+
 //react-redux.
+
+*************************
 
 //redux-toolkit (rtk)
 
+//Redux Toolkit (RTK) is the official, modern way to write Redux.
+
+It reduces boilerplate and makes Redux easier with:
+
+createSlice – automatically creates reducer + actions
+
+configureStore – simple store setup
+
+Built-in support for immutable updates with immer
+
+******************
 
 //zustand ak easy library hain state management karneke liye ...
+//Zustand is a small, fast, and simple state management library for React.
+It’s often called a “lighter alternative to Redux” because it’s minimal boilerplate and very easy to use.
+
+No need for Provider (optional for context sharing)
+
+Uses hooks directly to manage global state
+
+***********************
 
 //documenttation ...
 
@@ -2626,7 +2667,7 @@ har  aka mein daata traversing karana padega ..
 
 //oh bhi 2 file mein divide hain...
 
-
+***************
 part 1 ....
 
 //how create a user context ...
