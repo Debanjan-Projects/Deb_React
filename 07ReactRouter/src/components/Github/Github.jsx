@@ -1,9 +1,11 @@
 // import React, { useEffect, useState } from 'react';
 // import { data } from 'react-router-dom';
+
 import { useLoaderData } from 'react-router-dom';
 
 function Github() {
 
+  //use a hoocks.
     const data = useLoaderData()
 //   const [count, setCount] = useState(0);
 

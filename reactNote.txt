@@ -2193,6 +2193,10 @@ Or use a single conversion function that recalculates the correct value after th
 //1.Header
 //2. Footer
 
+
+
+
+*************
 //ab install karna hain reactrouter-dom in the folder ..just go through the terminal and just run the command react-router-dom
 
 
@@ -2202,11 +2206,14 @@ Or use a single conversion function that recalculates the correct value after th
 
 actually ap jab react-router-dom insrtall karta hoo tab apko react ke sath useeffect usestate milta hian ..or bhi kafi sari chise milta hain ..ushi tara eha bhi kuch neya chise mile hain ....
 
-/////////
+*******************
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 //en do file ko import karna hain ...
+
+
+
 
 //difference between link and nav link ...
 
@@ -2222,10 +2229,12 @@ import { Link, NavLink } from "react-router-dom";
 //ishi liye hum a tag nahi link used karta hain ...
 
 
-/////////////////////////////////////////////////
+*******************************
 
 react mein hum log a tag nahi used karta hain kiuki refresh ke baje she ...edhar hum log link tag hi used karta hain...
 
+
+**********************
 //nav link hum logo ko kuch additional chise share karta hain or deta hain...
 
 //link ke andar hum log jho href likhta hain .... edhar href ke badle mein likh ta hian to...
@@ -2259,14 +2268,22 @@ react mein hum log a tag nahi used karta hain kiuki refresh ke baje she ...edhar
 //////////////////////////////////////////////////////////////////////////
 
 
+
   //abhi just create karna hain same to same process mein footer file ke andar ak fotter.jsx file and ush mein kam karna padega....
 
   //ehh footer dumm component hain kuch eehh kam nahi karta hain...
 
 
+
+
   ////////////////////////////////////////////////////////////////////
 
   //abb hum logo ko chaye ak home componet ...
+
+  **********************
+
+  //,main .jsx ke andar hisab kuch hoga , render.
+
 
 
 
@@ -2274,6 +2291,7 @@ react mein hum log a tag nahi used karta hain kiuki refresh ke baje she ...edhar
 
 
   //ishh project mein hum log app.jsx ko used hi nahi karenge ...
+
   //hum log ak router create karte hain..
 
   //main.jsx ke anadar hum log ....
@@ -2285,13 +2303,16 @@ react mein hum log a tag nahi used karta hain kiuki refresh ke baje she ...edhar
   </StrictMode>,
 )
 
+//RouterProvider-- ak prop leta hain ,jabtak ehh prop nahi lega, tab tak kam nahi karega...
+
+
 //edhar hum ne ak strictmode ke anadar ak routerprovider banaya jho kina nata hain react-router dom she ..
 
 
 //abhi router kaishe banayenge ohh dekh te hain....
 
 
-//
+//router banan hain main.jsx ke andar .
 
 
 
@@ -2487,10 +2508,14 @@ after complete it now want to create another one commponent github ..
 
     // ak or chis neya hain or ohh hain loader ,,, loader ap directly koi agar api ko fetch karna hain to ap oha she hi direct kar sakta hain ....
 
+    ***********
+
     //loader....
 
 
     //suppose koi bhi button ke upor agar ap curser lehh ar jati hoin tabb bhi ohh api fetch karna shuru kar dega ...
+
+    //or fateching karke bhi catch  mein rakhta hain.
 
     // or ehh useeffect  ke  bhi age hota hain ..
 
@@ -2503,6 +2528,10 @@ after complete it now want to create another one commponent github ..
 
 
     //eha paar react router khatam hota hain ....
+
+//nesting ke liye layout ko main.jsx mein sabshe pehele rakkha hain ,
+
+//ushke andar hi sab hain .
 
 
 
