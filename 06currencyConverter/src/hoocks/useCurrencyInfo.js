@@ -24,7 +24,7 @@ import { useEffect, useState } from "react";
 //fetch she hum log chaning kar sakta hain...
 
 
-
+//kuch hoocks optional argument leta hain ,//ak hain call back or ak hain dependency array.
 function useCurrencyInfo(currency){
     const [data, setData] = useState({});
     useEffect(() => {
@@ -32,11 +32,15 @@ function useCurrencyInfo(currency){
         //api call.
    fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency.toLowerCase()}.json`)
 
+   //chaning.
 //call back.//response convert to json()
+
+//har bar ak object ka access klene ke liye . nahi lena padta hian hum log [] ka use karke bhi lehh sakta hain ,
       .then((res) => res.json())
 
       .then((res) => setData(res[currency]))
        console.log(data);
+       //agar currency change hoota hain , tab currency firshe call kiya jayega .
     }, [currency])
 
     console.log(data);

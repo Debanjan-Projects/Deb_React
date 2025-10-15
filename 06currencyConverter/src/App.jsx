@@ -1,14 +1,20 @@
 import { useState } from 'react'
 import {InputBox} from './components'
 import useCurrencyInfo from './hoocks/useCurrencyInfo'
-
-
-
 import './App.css'
+
+
+
+
 
 function App() {
 
-  //hoocks apne ap hi ak method hain ,
+  //hoocks apne ap hi ak method hain ,ak varibale hain or ak function hain,
+
+  //ak array liya hain , jisme ak variabe hain , or ak function reference hain.
+
+
+  //using all sstate , || or declare all state here .
 
   const [amount, setamount] = useState(0)
 
@@ -26,14 +32,20 @@ function App() {
 
   const options =Object.keys(CurrencyInfo)
 
+//swap functionality.
+//swap ak method hain..
+const swap = () => {
+  const tempAmount = amount;
+  const tempConverted = convertedAmount;
 
-  const swap = () => {
-    setfrom(to)
-    setTo(from)
-    setConvertedAmount(amount)
-    setamount(convertedAmount)
+  setamount(tempConverted);
+  setConvertedAmount(tempAmount);
+  setfrom(to);
+  setTo(from);
 
-  }
+  
+};
+
 
 
 
@@ -53,6 +65,7 @@ function App() {
  
  return (
     <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat'
+
     style={{backgroundImage: `url(https://images.pexels.com/photos/30945284/pexels-photo-30945284.jpeg)`}}
     >
 
@@ -71,6 +84,8 @@ function App() {
               amount={amount}
               currencyOptions={options}
               onCurrencyChange={(currency) => setfrom(currency)}
+
+              //ehh ak problem huya tha .
               onAmountChange={(amount) =>setamount(amount)}
               selectedCurrency={from}
               
