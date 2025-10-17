@@ -1,10 +1,14 @@
 import conf from '../conf/conf.js';
 import { Client, ID, Databases, Storage, Query } from "appwrite";
 
+//craete a services .
 export class Service{
     client = new Client();
     databases;
     bucket;
+
+
+    //crate a  constructor.
     
     constructor(){
         this.client
@@ -14,11 +18,18 @@ export class Service{
         this.bucket = new Storage(this.client);
     }
 
+    //crate a method .
+
+
     async createPost({title, slug, content, featuredImage, status, userId}){
         try {
             return await this.databases.createDocument(
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
+
+
+                //jho bhi slug value pass hoga , ohi main document id man raha huin.
+
                 slug,
                 {
                     title,
@@ -32,6 +43,11 @@ export class Service{
             console.log("Appwrite serive :: createPost :: error", error);
         }
     }
+
+
+//update document .
+
+//database ka jho update document konsha wala id lagega ohh agar separate kkarke lehh lehh to , ohh achha hota hain .
 
     async updatePost(slug, {title, content, featuredImage, status}){
         try {
@@ -52,6 +68,9 @@ export class Service{
         }
     }
 
+
+    //delete post .
+
     async deletePost(slug){
         try {
             await this.databases.deleteDocument(
@@ -61,11 +80,16 @@ export class Service{
             
             )
             return true
+            //delete ho chuka hain .
         } catch (error) {
             console.log("Appwrite serive :: deletePost :: error", error);
             return false
+            //agar error aya to.
         }
     }
+
+    //get post .
+    //ak post kaishe lehh sakte hain .
 
     async getPost(slug){
         try {
@@ -80,6 +104,22 @@ export class Service{
             return false
         }
     }
+
+
+    //get all post .
+    //list document pura ke pura dena padta hain .
+    //sare document nahi lenge eha per kiuki, jishka bhi status active nahi hain ohh bhi chala ayega ,.
+
+    //esh liye query sikhna padta hain .
+
+
+    //agar indexses hain tab hi ap ishme query laga sakti hain , agar nahi ha to nahi laga sakte hoin.
+
+    //enam save code //agar data mein used kara hota tho/
+
+    //query pagination bhi laga sakte hain .
+
+    //read from documenttation.
 
     async getPosts(queries = [Query.equal("status", "active")]){
         try {
@@ -96,8 +136,10 @@ export class Service{
         }
     }
 
+
     // file upload service
 
+    //jho atual file hain ohi dena hain .
     async uploadFile(file){
         try {
             return await this.bucket.createFile(
@@ -110,6 +152,8 @@ export class Service{
             return false
         }
     }
+
+    //delete file .
 
     async deleteFile(fileId){
         try {
@@ -124,6 +168,11 @@ export class Service{
         }
     }
 
+
+    //get file preview
+    //ehh prromis retrun nahi karta hain  , ehh bohot fast hota hain ,await edhar nahi bhi used kar ssakte hain ..
+
+    
     getFilePreview(fileId){
         return this.bucket.getFilePreview(
             conf.appwriteBucketId,
@@ -133,5 +182,9 @@ export class Service{
 }
 
 
+
+
+//crate a obj.
 const service = new Service()
+//export the service
 export default service
