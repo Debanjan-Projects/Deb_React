@@ -3535,15 +3535,34 @@ export default todoSlice.reducer;
 // here we go for create  a full flezed appp  ..
 //ahh mega project ..
 
+
+
+
+
+***************
+
 //react hamari front -end library hain ..
+//issh mein backend , or data base ohh nahi  hota hain .
 
 //react api handaling mein used hota hain .
+
+//fronend ak api request deg abackend maein, backend apko kuch data dega ,, keya data dega --- ki kish tara store mein rakh na hain , local storage mein rakh na hain , cookies mein rakh na hain .. 
+
+
+//error handle , 
+
+
+
+
+********************
 
 //heree we discusss about that what services are we used here ..
 
 // hum edhar used kar raha hain appwrite backend servises ke liy e..
 
 //what is appwrite ..
+//ehh almost fiirebase ki tara hain , lekin ehhh open source hain .
+
 
 //Appwrite is an open-source backend-as-a-service (BaaS) platform that helps developers build web, mobile, and Flutter apps faster without writing their own backend from scratch.
 
@@ -3561,6 +3580,8 @@ Realtime APIs – Sync data in real-time across clients (like chats, notificatio
 
 Self-Hosted or Cloud – You can host Appwrite yourself (Docker) or use their cloud version.
 
+**************8
+
 🛠️ Why developers use Appwrite:
 
 No need to build authentication, databases, or file storage manually.
@@ -3571,15 +3592,16 @@ Similar to Firebase, but open-source and self-hostable (so you control your data
 
 👉 In short: Appwrite = Firebase alternative that gives you authentication, database, storage, and serverless functions in one package.
 
-
+****************
 //hum inka cloud used karenge ..
 
 //documentation ..
 
 //https://appwrite.io/ go through this link and just sign in ,
 
-
+**************
 // we also have appwrite documentation..
+*********************
 
 //backend hamara sevice jaishe kam karega , 
 
@@ -3610,8 +3632,9 @@ ehh sab me help karega ...
 //documentation.
 //database(article)
 //api ke bare mwein
-//tinymec doc..
+//tinymec doc..//text editor hain .
 //react hook form..
+//html react parser .
 
 //tinymce hum logo ko help karega as a visual code editor jaishe ...
 
@@ -3640,15 +3663,20 @@ ehh sab me help karega ...
   // ab sabshe important chis hain jho ..
   *************************
 
+
+
   //Oh hain environement variable ..
 
 //react frontend library hain jho bhi react mein likha jata hain ohh js she shift hota hain brwser ke andar ..
 
-// so jho bhi variable banana hain ohh must be present on the top of the file root..
 
+****************
+// so jho bhi variable banana hain ohh must be present on the top of the file root..
+**************
 //how i create a env file ..
 
 //at the root of the file just create a file as .env ...
+
 
 //in the file we just write 
 REACT_APP_APPWRITE_URL ="test environment"
@@ -3677,6 +3705,10 @@ sab mein alag alag reheta hain ..
 // ak important point ehh hain ki ,env file ka bar hi load hota hain ,so haar time hum (maxmimum time mein humlogo ko file ko close karke open karna padta hain ).
 
 
+
+
+
+
 //console.log(process.env.REACT_APP_APPWRITE_URL ="test environment");
 
 //agar hum file ko esha  hi run karaya ,,
@@ -3688,12 +3720,19 @@ process is not define ..
 kiuki variable file process ke anadar hi declare rehe ta hain ...
 
 
+
+
+
+
+
 //????
 //REACT_APP_APPWRITE_URL ="test environment"
 
 // hum log edhar react app hi kiu like direct appwrite-url kiu nahi diya ...
 
 //here we want to read documentation ....
+
+
 
 
 
@@ -3705,6 +3744,8 @@ ehhh likh ke (process dehh ke access kar sakta hain )..
 // ehi problem tha udhar ..
 
 // access karneka process hain (import.meta.env.VITE_SOME_KEY)..
+
+
 
 
 
@@ -3758,7 +3799,7 @@ curd operation ,....
 
 ************************************************************************
 Uses of appwrite ......
-//appwrite mein bohot sar eservises hi hain (Database realted servises hain , auth servises hain , upload servises hain )
+//appwrite mein bohot sare servises hi hain (Database realted servises hain , auth servises hain , upload servises hain )
 
 //eha per ak concept ata hain ( vender locking ka )
 
@@ -3794,10 +3835,17 @@ const user = await account.create(
     'password'
 );
 
+//ak client chaiye pehele ,
+//fir ushke bad accont create hoga ,
+
+//fir isshh account meinmethod call sakte hain .
 
 //kaishe auth karn ahain ..
 
 ****************
+
+
+
 //import { Client, Account, ID } from "appwrite";
 
 export class AuthService{}
@@ -3940,10 +3988,10 @@ export default authService;
 
 *****
 
+//feture prove save code for any backend service .
 
 
-
-
+*************************************
 
 //import conf from '../conf.js';
 
