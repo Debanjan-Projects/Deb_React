@@ -4356,14 +4356,24 @@ createRoot(document.getElementById('root')).render(
 )
 
 
+
+
+
+***********************************************
 //********************************
 
-//form 
+//form  hain ..
 
-//email 
-//password
+//email  input form 
+//password form hain
+
+//in dono ko ak sath ak state mein rakh denge ,
+
 
 //login button hain .
+//jaishe login ki button click ho ta hain , eish dono ki vakue state she lehh lenge , eya obj hi create kar duin , onchange mein event trigger kara denge , or state ki value change kara denge ..
+
+
 
 
 
