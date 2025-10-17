@@ -3130,14 +3130,19 @@ function TodoForm() {
 
 //Redux ak apane ap hi independent state management libary hain..
 
+***************
 //redux ------ react-reddux..
+
+//react apne ap hi ak library hain , or react redux ak apna ap hi alag library hain .
+
+
 
 //redux ko connection ddne ke liye hum log ehh used karta hain..
 
 
 //History ..
 
-//suppose ham logo ke pass ak inner hain bohot sar eouter ke andar .. or agar koi props ko outer she agar inner mein insert karna hain to koi way nahi tha .
+//suppose ham logo ke pass ak inner hain bohot sare outer ke andar .. or agar koi props ko outer she agar inner mein insert karna hain to koi way nahi tha .
 
 //har aka ko par karke jana padta hain ..
 
@@ -3145,16 +3150,27 @@ function TodoForm() {
 
 //ak hocks she lehh lete the ..use name ki ..
 
-//
+//provider she wrap kar dete the .
 
 
 
-
+********************
 //redux ke pehele tha flux..
 
 //facebook mein ssabshe pehele jho architecture design huya ohh hain flux..
 
+
+//state management ka problem ho rehi thi..
+//central store.
+
+//ak aur kam ..
+
 // dataflow///
+
+
+//data ak hi tara she store ke anaadar jai oor update ho jaye , or return bhi ushi tara she ay e,
+
+
 
 //context mein bhi itna data flow nahi hota hain jitna redux mein hota hain ..
 
@@ -3163,37 +3179,101 @@ function TodoForm() {
 
 
 
+********************
+
+
+//redux ak beter version tha flux ka .
+
 //flux ke anadar dataflow mein bohot dhiyan deya geya ..
 
 //lekin ohh bhi itna achha nahi hain //
 
+**************
+
+//redux- single source of truth .
+//ak hi store hona chaiye ,
+// you shoud never change your state .
+
+***************
 //redux ak independent libary hain ehh sabke sath kam kar sakta hain ..
+
 view ke sath react ke sath or koi bhi js ke libary ke ssath ..
 
+//a predicatable container for js app.
 
+
+
+//when we introduced by  flux , or context api ,
+//1. Flux (introduced ~2014)
+
+Flux was created by Facebook as an architecture pattern for managing data flow in large React applications.
+
+It came before the Context API became stable.
+
+It inspired libraries like Redux, MobX, etc.
+
+The idea:
+
+One-way data flow
+
+Centralized store → dispatcher → components listen for changes
+
+🕓 So Flux was used before Context API was introduced.
+
+
+
+//2. Context API (introduced in React 16.3, 2018)
+
+React had a very early, experimental version of context before 16.3, but it wasn’t widely used because it was unstable.
+
+The new Context API (2018) made it easy to pass global data (like themes, user info, etc.) without prop drilling.
+
+It replaced many simple Flux/Redux use cases.
+
+
+**********************
 //redux thank ..
 
 //redux chorme extension..
+//redux dev tool..
 
+//redux middleware ..
+
+
+**************************
 //redux achh ahian bohot achha hain or bhi achha kar sakta hain ishh liye aya redux tool kit.
 
 //redux -tool kit tha batter included , hazar kam nahi karna hain simply ohh khud hi sab kuch samhal lega ,,
 
-//abstraction jada hain redux ke andar ..
+//abstraction jada hain redux-tool kit  ke andar ..
 
 //store karneke ke bhi moka milta hain ..
 
+//redux thank , middle ware include reheta hain ..
 
 
+
+***************
 //store ...
+//single source of truth she leta hain .
 
 //Reducers... -- object jaisha hi hota hain 
+//functionality part ehh control karta hain ,
+//store mein agar kuch change karna hain .
 
-//method.
+
+
+
+// two method.
 
 //useselector ..
+//kuch select karna hain .
 
 //usedispatch ...
+
+//jab koi value hum logo ko bhej na hain .
+
+*************************
 
 //create a another project ---- redux project 
 
@@ -3249,11 +3329,26 @@ Gives hooks like useSelector and useDispatch so components can read state and di
 
 Without react-redux, your Redux store would exist, but React components wouldn’t know how to access it.
 
+
+
+***********************
 🛠 Why you install both:
 
 @reduxjs/toolkit → to create and manage the store + reducers
 
 react-redux → to connect that store to your React app so components can use it
+**************************
+
+
+//why we used together this two library ...
+
+//ChatGPT said:
+
+We use @reduxjs/toolkit and react-redux together because they serve different but complementary purposes in a React application that uses Redux for state management. The @reduxjs/toolkit (RTK) is the official and modern way to write Redux logic—it simplifies the setup by providing built-in functions like configureStore(), createSlice(), and createAsyncThunk() to easily create stores, reducers, and handle asynchronous actions without writing a lot of boilerplate code. On the other hand, react-redux is the official React binding library for Redux that allows React components to connect with the Redux store. It provides essential hooks and components such as Provider, useSelector(), and useDispatch() which let components access and update the global state stored in Redux. In short, @reduxjs/toolkit helps you create and manage the store efficiently, while react-redux enables your React components to interact with that store — both are needed to make Redux work seamlessly in a React project.
+
+
+
+****************
 
 Think of it like:
 
@@ -3270,7 +3365,7 @@ export const store = configureStore({})
 
 //just create a store ..
 
-
+*****************
 // next step hota hain .create our reducers..
 
 
@@ -3362,7 +3457,7 @@ const initialState = {
     todos: [{id: 1, text: "Hello World"}]
 }
 
-
+*****************
 //crate a slice .
 
 //Slice ak reducer ka hi bara version hain ..or reducer  hota hain functionaliy ..

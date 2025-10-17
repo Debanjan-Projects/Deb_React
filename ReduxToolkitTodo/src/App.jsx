@@ -6,6 +6,8 @@ import Todos from './components/Todos'
 function App() {
   
   //edhar bhi ak wrapper lagta hain .like context api ,
+
+  // ohh main.jsx mein bhi kar sakte hain ..
   return (
     <>
 

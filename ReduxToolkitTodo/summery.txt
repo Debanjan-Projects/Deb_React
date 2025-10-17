@@ -1,0 +1,72 @@
+//redux ak alag chis hain ,,
+//react dedux ak alag chis hain .
+
+//react ak core librrary hain , 
+//aur react redux ushka implement tation hain .wireing karneke liye , ta ki react or react redux ka apash mein bat ho sakta hain .
+
+
+//redux tool kit  jab used karrte hain , tab ehh sab kam automtically ho jata hain .
+
+
+//
+
+
+//React, React Redux, and Redux Toolkit are all related but serve different purposes in a React application.
+
+React is a JavaScript library created by Facebook for building fast, interactive, and component-based user interfaces. It handles the UI layer and manages data within components using local state and props. However, when an application grows and multiple components need to share or update the same data, managing state becomes complicated. That’s where Redux comes in.
+
+
+
+
+
+Redux is a state management library that provides a centralized store to hold the global state of your application. Instead of passing data between multiple nested components, you store it in one global place (the Redux store), making it predictable and easier to debug. In Redux, data flow is unidirectional — components dispatch actions, reducers handle how the state changes, and the UI updates automatically when the store changes.
+
+
+
+
+To use Redux with React, we need React Redux, which is the official binding library that connects React components to the Redux store. It provides useful tools like the <Provider> component (to give the store access to all React components) and hooks like useSelector() (to read data from the store) and useDispatch() (to send actions). Without React Redux, React components cannot directly communicate with the Redux store.
+
+
+
+However, writing Redux logic used to require a lot of boilerplate code (defining actions, reducers, types, and manually combining them), which made it complex for beginners. To solve this, the Redux team introduced Redux Toolkit (@reduxjs/toolkit) — the modern, recommended way to write Redux code. Redux Toolkit simplifies the entire setup by providing functions like configureStore() to create the store easily, createSlice() to define reducers and actions together, and createAsyncThunk() to handle asynchronous operations like API calls.
+
+
+
+In summary, React is used for building the UI, React Redux connects React to the Redux store, and Redux Toolkit simplifies and modernizes how Redux is implemented. Together, they make large-scale React applications easier to manage, debug, and maintain.
+
+//store 
+//ak apllication ka ak hi store hota hain ..
+
+//single ssource of tructh ..
+
+//ak key value hota hain , multiple value bhi ho sakta hain .
+
+***********
+
+//slice 
+
+
+//name 
+//initialstate ,
+//reducer ke list .
+
+
+
+//context api mein hum log karte the , pehele , sare array nikal lehh te the , then ushko spread karte the , then ush mein value add karte the , 
+
+
+then kam karte the .
+
+//state edhar preserved rehete hain .
+
+
+
+
+//component .
+
+//value leni thi or dena thi ,
+
+//vejne ke liye tha dispatch .
+//lehh nele ke liey tha , use select .
+
+*************

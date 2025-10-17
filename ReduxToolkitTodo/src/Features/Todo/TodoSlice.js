@@ -1,4 +1,7 @@
-//nanoid make a unique id
+//craete a reducer using creat slice .
+
+
+//nanoid make a unique id.
 
 import { createSlice , nanoid } from "@reduxjs/toolkit";
 
@@ -21,15 +24,33 @@ const todoSlice = createSlice({
 
     //reducers mein ata hain property or function .
     //redux tool kit mein hum log srif declaration nahi likhte hain hum likh te hain pura defination..
+
+    //context api mein hum log function ki declaration kar rehe the , lakin defination nahi kar rehe the ,
+
+
+        //lekin edhar hum loh ,, declaration ke sath defination bhi kar rehe hain .
+
+//state ,bad mein jha ke change ho jayegi , lekin abhi jho ush state mein valuue hain , ushka sab access degi ..
+//hand to hand situationka kam state deta hain .
+
+
+//aur action .kuch value aye , value ata hain action she .payload mein .
+
     reducers: {
         addTodo: (state ,action) => {
             const todo = {
                 id: nanoid(), 
                 text: action.payload
                 //payload ak object  hain .
+
+                //playload mein kuchh  bhi ahh sakta hain .
             }
+            //add karneke ka tarikha .
             state.todos.push(todo)
         },
+
+        //remove todo .
+        
 
         removeTodo: (state ,action) => {
             state.todos = state.todos.filter((todo) =>todo.id != action.payload )

@@ -1,10 +1,22 @@
+//todo ka list karna hain .
+//value ,milta hhain store she .
+
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {removeTodo} from '../features/todo/todoSlice'
 
 function Todos() {
     const todos = useSelector(state => state.todos)
+    //syntax of dispatch ka .
     const dispatch = useDispatch()
+
+    //just functionality setup karneme time lagta hain .
+    //store banana mein.
+    //slice banane mein ,
+    //reducer banane mein ,,
+    //fir ohh sabhi access hum log , dispatch or use selector she kar lenge.
+
+    
 
   return (
     <>
@@ -17,6 +29,11 @@ function Todos() {
           >
             <div className='text-white'>{todo.text}</div>
             <button
+
+            //jabbhi koi parameter pass karna hoin ish tara tab hum log ehh call back used karrte hain.
+
+            //hum log parenthesis used nahi kar sakte hain ,kiuki ohh , direct execute ho jayega , ish liye hum logg ohh call back used karte hain , ki agar koi button per click kare to hi ohh function execute ho .
+
              onClick={() => dispatch(removeTodo(todo.id))}
               className="text-white bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded text-md"
             >

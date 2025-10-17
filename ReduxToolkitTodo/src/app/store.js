@@ -6,3 +6,5 @@ import todoReducer from '../Features/Todo/TodoSlice';
 export const store = configureStore({
     reducer: todoReducer
 })
+
+//configurestrore -fore create the store ,,
