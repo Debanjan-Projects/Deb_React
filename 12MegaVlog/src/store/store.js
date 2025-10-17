@@ -10,3 +10,5 @@ const store = configureStore({
 
 
 export default store;
+
+//configure jho haota hain ohh store banata hain ,or ushko sare ,reducers ke bare mein batana padta hain .

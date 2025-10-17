@@ -77,6 +77,8 @@ const router = createBrowserRouter([
 },
 ])
 
+
+//wrap by provider .
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
