@@ -5,7 +5,8 @@ import { useNavigate,  useParams } from 'react-router-dom';
 
 function EditPost() {
     const [post, setPosts] = useState(null)
-    const {slug} = useParams()
+    const {slug} = useParams()  //url she koi bhi value llikal neke liye , hum log use prams use karte hain ..
+
     const navigate = useNavigate()
 
     useEffect(() => {
@@ -19,6 +20,9 @@ function EditPost() {
             navigate('/')
         }
     }, [slug, navigate])
+
+
+    
   return post ? (
     <div className='py-8'>
         <Container>

@@ -11,8 +11,11 @@ export default function Post() {
     const navigate = useNavigate();
 
     const userData = useSelector((state) => state.auth.userData);
+    //author hain eya nahi .
 
     const isAuthor = post && userData ? post.userId === userData.$id : false;
+
+
 
     useEffect(() => {
         if (slug) {
@@ -31,6 +34,8 @@ export default function Post() {
             }
         });
     };
+
+
 
     return post ? (
         <div className="py-8">
@@ -62,6 +67,8 @@ export default function Post() {
                     {parse(post.content)}
                     </div>
             </Container>
+
         </div>
+
     ) : null;
 }

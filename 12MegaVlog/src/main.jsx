@@ -17,6 +17,9 @@ import Post from "./pages/Post";
 
 import AllPosts from "./pages/AllPosts";
 
+
+//create a router ..
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -79,6 +82,7 @@ const router = createBrowserRouter([
 
 
 //wrap by provider .
+//wrapped by router provider ..
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
