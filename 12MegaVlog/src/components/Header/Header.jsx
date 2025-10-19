@@ -8,9 +8,12 @@ function Header() {
   const authStatus = useSelector((state) => state.auth.status)
   const navigate = useNavigate()
 
+  //ak array banaya jata hain jishke andar or upor loop chalaya jata hain .
+
   const navItems = [
     {
       name: 'Home',
+      //url kidhar jha raha hain .
       slug: "/",
       active: true
     }, 
@@ -58,6 +61,11 @@ function Header() {
               </li>
             ) : null
             )}
+
+
+
+            {/* //agar authentication hain user ka log out kara dega , agar nahi hain nahi karayega. */}
+
             {authStatus && (
               <li>
                 <LogoutBtn />
@@ -68,6 +76,10 @@ function Header() {
         </Container>
     </header>
   )
+
+
+  // har jaga button use karna hain ,a bhi har jayga , button craete kar neme bohot time jayega , ish liye ak common button create karke , ohi har place mein use kar lete hain ..
+
 }
 
 export default Header

@@ -3,6 +3,8 @@ import { Client, ID, Databases, Storage, Query } from "appwrite";
 
 //craete a services .
 export class Service{
+
+    //object hi nikal ke deh diya.
     client = new Client();
     databases;
     bucket;
@@ -121,6 +123,12 @@ export class Service{
 
     //read from documenttation.
 
+        //queries is an array of filtering conditions for fetching documents.
+
+        // [Query.equal("status", "active")] sets the default filter.
+
+        // It ensures you only get active posts from the collection unless you specify otherwise.
+
     async getPosts(queries = [Query.equal("status", "active")]){
         try {
             return await this.databases.listDocuments(
@@ -188,3 +196,5 @@ export class Service{
 const service = new Service()
 //export the service
 export default service
+
+//for all kind of daatabase operation just used aappwrite database documentation.

@@ -8,6 +8,7 @@ import { Outlet } from 'react-router-dom'
 
 
 //hum logo ko dekhna hain ,jaishe hi app  load ho raha hain , user login hain eya nahi hain .dekh lenge hum logo ka state she .
+
 //loading state create .
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
   const dispatch = useDispatch()
 
 //dispatch() = “Send this action to the store to update the state.”
+//dispatch jho hain combersure hain redux ko react ke sath kam karneke liye .
+
+
+
 
   useEffect(() => {
     authService.getCurrentUser()
@@ -37,7 +42,7 @@ function App() {
       <div className='w-full block'>
         <Header />
         <main>
-        TODO:  <Outlet /> // ehh ayegaa react router dom she .
+        {/* TODO:  <Outlet /> // ehh ayegaa react router dom she . */}
         </main>
         <Footer />
       </div>

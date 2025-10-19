@@ -10,3 +10,5 @@ function Signup() {
 }
 
 export default Signup
+
+//sign up page , import the sign up componenet here ..

@@ -4375,6 +4375,12 @@ createRoot(document.getElementById('root')).render(
 
 
 
+..***************************
+
+//input field ko alag she hi banaya jata haain , prop related banaya jata hain.ki ish ke anadar , keya level pass karna hain , keya placeholder lagayemge , keya input hoga , keya style hoga, ...input filed mmein bhi kam ahh jaye , regisster mein bhi kam ahh jaye , or agar alag kaha per bhi ehh used karna hoin to hum log ehh used kar sakte hain .
+
+
+
 
 
 //another hoocks hain ..
@@ -4402,8 +4408,25 @@ const MyInput = forwardRef(function MyInput(props, ref) {
 
 //react hoocks form ..
 
-
+//rigister koi bhi sign up wala nahi hain .
 //register ak form handeling ka process hain ..
+
+//handle submit ak method hain .
+
+
+
+//***************************
+//sign up...
+
+//
+authentication layout craete kiya hian ..
+
+
+********************
+///craete a post from ....
+
+  //create a rte ...
+  
 
 
 
@@ -4422,6 +4445,16 @@ const MyInput = forwardRef(function MyInput(props, ref) {
 //In React Hook Form, the Controller component is used when you want to integrate controlled components (like Material UI’s TextField, React-Select, Ant Design inputs, etc.) with React Hook Form.
 
 Normally, React Hook Form works best with uncontrolled components (using register). But for components that don’t expose a native ref or value directly, you use Controller.
+
+
+//****************
+//craete a postfrom ..
+
+
+//****************
+//craete all pages ..
+
+
 
 
 

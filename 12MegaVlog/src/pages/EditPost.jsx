@@ -29,3 +29,5 @@ function EditPost() {
 }
 
 export default EditPost
+
+//for edit any post /.

@@ -31,3 +31,5 @@ export {
     Input,
     Select,
 }
+
+//all pages and componenets import and export ..
