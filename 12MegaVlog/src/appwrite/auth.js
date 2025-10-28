@@ -7,8 +7,8 @@ class AuthService {
 
   constructor() {
     this.client
-      .setEndpoint(conf.appwriteUrl) // Example: 'https://fra.cloud.appwrite.io/v1'
-      .setProject(conf.appwriteProjectId); // Example: 'YOUR_PROJECT_ID'
+      .setEndpoint(conf.appwriteUrl)
+      .setProject(conf.appwriteProjectId);
 
     this.account = new Account(this.client);
   }
@@ -16,8 +16,14 @@ class AuthService {
   // Create new user and auto-login
   async createAccount({ email, password, name }) {
     try {
-      await this.account.create(ID.unique(), email, password, name);
-      return await this.login({ email, password });
+      const userAccount = await this.account.create(ID.unique(), email, password, name);
+      
+      // Auto-login after account creation
+      if (userAccount) {
+        return await this.login({ email, password });
+      }
+      
+      return userAccount;
     } catch (error) {
       console.error("❌ Appwrite service :: createAccount :: error", error);
       throw error;
@@ -35,31 +41,43 @@ class AuthService {
     }
   }
 
-  // Get current logged-in user
+  // Get current logged-in user (Improved)
   async getCurrentUser() {
     try {
-      // Just call get(), Appwrite handles the session via cookies
+      // This will only work if there's an active session
       const user = await this.account.get();
       return user;
     } catch (error) {
+      // Handle different types of authentication errors
       if (error.code === 401) {
-        console.warn("⚠️ User not logged in or session expired.");
+        console.log("ℹ️ No active user session found");
+        return null;
+      } else if (error.type === 'general_unauthorized_scope') {
+        console.log("ℹ️ User session expired or invalid");
+        return null;
       } else {
         console.error("❌ Appwrite service :: getCurrentUser :: error", error);
+        return null;
       }
-      return null;
     }
   }
 
-  // Logout user
+  // Logout user (Improved)
   async logout() {
     try {
-      // Delete current session only
       await this.account.deleteSession('current');
       console.log("✅ User logged out successfully");
+      return true;
     } catch (error) {
       console.error("❌ Appwrite service :: logout :: error", error);
+      return false;
     }
+  }
+
+  // Additional helper method to check if user is logged in
+  async isLoggedIn() {
+    const user = await this.getCurrentUser();
+    return user !== null;
   }
 }
 

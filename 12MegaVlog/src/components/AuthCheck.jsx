@@ -1,4 +1,3 @@
-// src/components/AuthCheck.jsx
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import authService from '../appwrite/auth';
@@ -11,19 +10,18 @@ export const AuthCheck = ({ children }) => {
     useEffect(() => {
         const checkAuth = async () => {
             try {
-                console.log("🔍 Checking authentication status...");
+                console.log("🔍 Checking authentication...");
                 const userData = await authService.getCurrentUser();
-                console.log("📋 User data received:", userData);
                 
                 if (userData) {
-                    console.log("✅ User is authenticated:", userData.email);
+                    console.log("✅ User authenticated:", userData.email);
                     dispatch(login({ userData }));
                 } else {
-                    console.log("❌ No user logged in");
+                    console.log("ℹ️ No active session");
                     dispatch(logout());
                 }
             } catch (error) {
-                console.error("🚨 Auth check failed:", error);
+                console.log("⚠️ Auth check completed");
                 dispatch(logout());
             } finally {
                 setLoading(false);
@@ -33,13 +31,12 @@ export const AuthCheck = ({ children }) => {
         checkAuth();
     }, [dispatch]);
 
-    // Show loading while checking authentication
     if (loading) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-gray-100">
                 <div className="text-center">
                     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
-                    <p className="mt-4 text-gray-600">Checking authentication...</p>
+                    <p className="mt-4 text-gray-600">Loading...</p>
                 </div>
             </div>
         );

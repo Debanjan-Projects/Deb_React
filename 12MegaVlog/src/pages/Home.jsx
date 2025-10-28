@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React, {useEffect, useState} from 'react'
 import appwriteService from "../appwrite/config";
 import {Container, PostCard} from '../components'
@@ -20,12 +19,12 @@ function Home() {
                 setError('')
                 
                 console.log("🔄 Fetching posts...");
-                const postsData = await appwriteService.getPosts();
-                console.log("📄 Posts data:", postsData);
+                const postsResponse = await appwriteService.getPosts();
+                console.log("📄 Posts response:", postsResponse);
                 
-                // Since your service returns array directly
-                if (postsData && Array.isArray(postsData)) {
-                    setPosts(postsData);
+                // Now we get the full response with documents property
+                if (postsResponse && postsResponse.documents) {
+                    setPosts(postsResponse.documents);
                 } else {
                     setPosts([]);
                 }
@@ -33,17 +32,18 @@ function Home() {
                 console.error("❌ Error fetching posts:", error);
                 setError(error.message || 'Failed to load posts');
                 setPosts([]);
-                
-                if (error.code === 401) {
-                    setError('Please login to view posts');
-                }
             } finally {
                 setLoading(false);
             }
         }
 
-        fetchPosts();
-    }, [userData, navigate]);
+        // Only fetch posts if user is authenticated
+        if (userData) {
+            fetchPosts();
+        } else {
+            setLoading(false);
+        }
+    }, [userData]);
 
     // Show loading state
     if (loading) {
@@ -53,8 +53,42 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-2xl font-bold">
-                                Loading posts...
+                                Loading...
                             </h1>
+                        </div>
+                    </div>
+                </Container>
+            </div>
+        )
+    }
+
+    // Show public welcome for non-authenticated users
+    if (!userData) {
+        return (
+            <div className="w-full py-8 mt-4 text-center">
+                <Container>
+                    <div className="flex flex-wrap">
+                        <div className="p-2 w-full">
+                            <h1 className="text-4xl font-bold text-gray-800 mb-6">
+                                Welcome to MegaVlog
+                            </h1>
+                            <p className="text-xl text-gray-600 mb-8">
+                                Join our community to read and share amazing stories
+                            </p>
+                            <div className="space-x-4">
+                                <button 
+                                    onClick={() => navigate('/login')}
+                                    className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600 transition-colors text-lg"
+                                >
+                                    Login
+                                </button>
+                                <button 
+                                    onClick={() => navigate('/signup')}
+                                    className="bg-green-500 text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors text-lg"
+                                >
+                                    Sign Up
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </Container>
@@ -72,14 +106,12 @@ function Home() {
                             <h1 className="text-2xl font-bold text-red-500 mb-4">
                                 {error}
                             </h1>
-                            {error.includes('login') && (
-                                <button 
-                                    onClick={() => navigate('/login')}
-                                    className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
-                                >
-                                    Login to Continue
-                                </button>
-                            )}
+                            <button 
+                                onClick={() => window.location.reload()}
+                                className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
+                            >
+                                Try Again
+                            </button>
                         </div>
                     </div>
                 </Container>
@@ -95,16 +127,11 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-2xl font-bold text-gray-600">
-                                {userData ? 'No posts available yet' : 'Login to read posts'}
+                                No posts available yet
                             </h1>
-                            {!userData && (
-                                <button 
-                                    onClick={() => navigate('/login')}
-                                    className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors"
-                                >
-                                    Login Now
-                                </button>
-                            )}
+                            <p className="text-gray-500 mt-2">
+                                Be the first to create a post!
+                            </p>
                         </div>
                     </div>
                 </Container>

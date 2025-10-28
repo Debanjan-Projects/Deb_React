@@ -1,35 +1,137 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import authService from '../conf/authService';
 
-const initialState = {
-    status : false,
-    userData: null
-}
+// Async thunk for checking authentication status
+export const checkAuthStatus = createAsyncThunk(
+    'auth/checkStatus',
+    async (_, { rejectWithValue }) => {
+        try {
+            const user = await authService.getCurrentUser();
+            return user;
+        } catch (error) {
+            return rejectWithValue(error.message);
+        }
+    }
+);
+
+// Async thunk for login
+export const loginUser = createAsyncThunk(
+    'auth/login',
+    async ({ email, password }, { rejectWithValue }) => {
+        try {
+            const user = await authService.login({ email, password });
+            return user;
+        } catch (error) {
+            return rejectWithValue(error.message);
+        }
+    }
+);
+
+// Async thunk for signup
+export const signupUser = createAsyncThunk(
+    'auth/signup',
+    async ({ email, password, name }, { rejectWithValue }) => {
+        try {
+            const user = await authService.createAccount({ email, password, name });
+            return user;
+        } catch (error) {
+            return rejectWithValue(error.message);
+        }
+    }
+);
+
+// Async thunk for logout
+export const logoutUser = createAsyncThunk(
+    'auth/logout',
+    async (_, { rejectWithValue }) => {
+        try {
+            await authService.logout();
+            return null;
+        } catch (error) {
+            return rejectWithValue(error.message);
+        }
+    }
+);
 
 const authSlice = createSlice({
-
-    //ishe chaiye hota hain , name , initialstate , reducers,all.
-    name: "auth",
-    initialState,
+    name: 'auth',
+    initialState: {
+        user: null,
+        loading: false,
+        error: null,
+        isAuthenticated: false
+    },
     reducers: {
-
-        //action ke pass milta hain playload , jho initial hone ke bad track hote hote update hohh jata hain ..
-
-        login: (state, action) => {
-
-            //koi agar method ko dispatch kara hain.
-            state.status = true;
-            state.userData = action.payload.userData;
+        clearError: (state) => {
+            state.error = null;
         },
-           
-        logout: (state) => {
-            state.status = false;
-            state.userData = null;
+        setUser: (state, action) => {
+            state.user = action.payload;
+            state.isAuthenticated = !!action.payload;
         }
-     }
-})
+    },
+    extraReducers: (builder) => {
+        builder
+            // Check Auth Status
+            .addCase(checkAuthStatus.pending, (state) => {
+                state.loading = true;
+                state.error = null;
+            })
+            .addCase(checkAuthStatus.fulfilled, (state, action) => {
+                state.loading = false;
+                state.user = action.payload;
+                state.isAuthenticated = !!action.payload;
+                state.error = null;
+            })
+            .addCase(checkAuthStatus.rejected, (state, action) => {
+                state.loading = false;
+                state.user = null;
+                state.isAuthenticated = false;
+                state.error = action.payload;
+            })
+            // Login
+            .addCase(loginUser.pending, (state) => {
+                state.loading = true;
+                state.error = null;
+            })
+            .addCase(loginUser.fulfilled, (state, action) => {
+                state.loading = false;
+                state.user = action.payload;
+                state.isAuthenticated = true;
+                state.error = null;
+            })
+            .addCase(loginUser.rejected, (state, action) => {
+                state.loading = false;
+                state.user = null;
+                state.isAuthenticated = false;
+                state.error = action.payload;
+            })
+            // Signup
+            .addCase(signupUser.pending, (state) => {
+                state.loading = true;
+                state.error = null;
+            })
+            .addCase(signupUser.fulfilled, (state, action) => {
+                state.loading = false;
+                state.user = action.payload;
+                state.isAuthenticated = true;
+                state.error = null;
+            })
+            .addCase(signupUser.rejected, (state, action) => {
+                state.loading = false;
+                state.user = null;
+                state.isAuthenticated = false;
+                state.error = action.payload;
+            })
+            // Logout
+            .addCase(logoutUser.fulfilled, (state) => {
+                state.user = null;
+                state.isAuthenticated = false;
+                state.error = null;
+                state.loading = false;
+            });
+    }
+});
 
-export const {login, logout} = authSlice.actions;
-
+export const { clearError, setUser } = authSlice.actions;
 export default authSlice.reducer;
-
-//ehh tract karega sare authectication ko..

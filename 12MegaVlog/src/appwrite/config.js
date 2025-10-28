@@ -15,20 +15,13 @@ export class Service {
     this.bucket = new Storage(this.client);
   }
 
-  // ✅ Create new post
   async createPost({ title, slug, content, featuredImage, status, userId }) {
     try {
       return await this.databases.createDocument(
         conf.appwriteDatabaseId,
         conf.appwriteCollectionId,
         slug,
-        {
-          title,
-          content,
-          featuredImage,
-          status,
-          userId,
-        }
+        { title, content, featuredImage, status, userId }
       );
     } catch (error) {
       console.error("Appwrite Service :: createPost :: error", error);
@@ -36,7 +29,6 @@ export class Service {
     }
   }
 
-  // ✅ Update existing post
   async updatePost(slug, { title, content, featuredImage, status }) {
     try {
       return await this.databases.updateDocument(
@@ -51,7 +43,6 @@ export class Service {
     }
   }
 
-  // ✅ Delete post
   async deletePost(slug) {
     try {
       await this.databases.deleteDocument(
@@ -66,7 +57,6 @@ export class Service {
     }
   }
 
-  // ✅ Get single post
   async getPost(slug) {
     try {
       return await this.databases.getDocument(
@@ -80,23 +70,22 @@ export class Service {
     }
   }
 
-  // ✅ Get all posts (active by default) - FIXED: Return full response
+  // ✅ FIXED: Return full response instead of just documents
   async getPosts(queries = [Query.equal("status", "active")]) {
     try {
-      return await this.databases.listDocuments(
+      const response = await this.databases.listDocuments(
         conf.appwriteDatabaseId,
         conf.appwriteCollectionId,
         queries
       );
-      // Return full Appwrite response (includes documents, total, etc.)
+      return response; // Return full response
     } catch (error) {
       console.error("Appwrite Service :: getPosts :: error", error);
-      // Return empty Appwrite-like response structure
+      // Return Appwrite-like response structure on error
       return { documents: [], total: 0 };
     }
   }
 
-  // ✅ Upload file (image)
   async uploadFile(file) {
     try {
       return await this.bucket.createFile(
@@ -110,7 +99,6 @@ export class Service {
     }
   }
 
-  // ✅ Delete file
   async deleteFile(fileId) {
     try {
       await this.bucket.deleteFile(conf.appwriteBucketId, fileId);
@@ -121,12 +109,10 @@ export class Service {
     }
   }
 
-  // ✅ Get file preview (no await needed)
   getFilePreview(fileId) {
     return this.bucket.getFilePreview(conf.appwriteBucketId, fileId);
   }
 }
 
-// ✅ Create and export single instance
 const service = new Service();
 export default service;
