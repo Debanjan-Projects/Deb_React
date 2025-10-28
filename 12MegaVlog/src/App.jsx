@@ -31,9 +31,9 @@ function App() {
       }
     })
 
-    //loading ka kam khatam karneke liye .
+    // loading ka kam khatam karneke liye .
     .finally(() => setLoading(false))
-  }, [])
+  }, )
   
 
 //conditional rendering .
@@ -43,6 +43,7 @@ function App() {
         <Header />
         <main>
         {/* TODO:  <Outlet /> // ehh ayegaa react router dom she . */}
+        <Outlet />
         </main>
         <Footer />
       </div>

@@ -1,108 +1,67 @@
 import conf from '../conf/conf.js';
-import { Client, Account, ID } from "appwrite";
+import { Client, Account, ID } from 'appwrite';
 
+class AuthService {
+  client = new Client();
+  account;
 
-//client mil geya , account mil geya , id mil geya.
+  constructor() {
+    this.client
+      .setEndpoint(conf.appwriteUrl) // Example: 'https://fra.cloud.appwrite.io/v1'
+      .setProject(conf.appwriteProjectId); // Example: 'YOUR_PROJECT_ID'
 
-//create a class.
+    this.account = new Account(this.client);
+  }
 
-//create two property.
-export class AuthService {
-    client = new Client();
-    account;
-
-
-    //craeting a constructor.
-
-    constructor() {
-        this.client
-            .setEndpoint(conf.appwriteUrl)
-            .setProject(conf.appwriteProjectId);
-
-            //account ke value add .
-        this.account = new Account(this.client);
-        //ak calss ke andar kam kar diya hain , jav bhi ush ka ak new  obj mile .
-
+  // Create new user and auto-login
+  async createAccount({ email, password, name }) {
+    try {
+      await this.account.create(ID.unique(), email, password, name);
+      return await this.login({ email, password });
+    } catch (error) {
+      console.error("❌ Appwrite service :: createAccount :: error", error);
+      throw error;
     }
+  }
 
-
-    //eshar ak method banaya jayega , or ushko jitna bhi appwirte ke services hain unko call karenge  , actually ak wrapper banaya jayega .
-    
-
-    // Create new account
-    async createAccount({ email, password, name }) {
-        //agar fail hoya to.
-
-        try {
-            const userAccount = await this.account.create(ID.unique(), email, password, name);
-
-
-            if (userAccount) {
-                // Automatically login after signup
-                //call another method .
-
-                //agar useraccount exist karta hain ,ushko bhi login karado .
-
-
-                return this.login({ email, password });
-            } 
-            
-            else {
-                return userAccount;
-            }
-
-        } catch (error) {
-            throw error;
-        }
+  // Login user
+  async login({ email, password }) {
+    try {
+      const session = await this.account.createEmailPasswordSession(email, password);
+      return session;
+    } catch (error) {
+      console.error("❌ Appwrite service :: login :: error", error);
+      throw error;
     }
+  }
 
-
-
-
-
-    // Login
-    async login({ email, password }) {
-        try {
-            // FIXED ✅ new method name
-            return await this.account.createEmailPasswordSession(email, password);
-        } 
-        
-        catch (error) {
-            throw error;
-        }
+  // Get current logged-in user
+  async getCurrentUser() {
+    try {
+      // Just call get(), Appwrite handles the session via cookies
+      const user = await this.account.get();
+      return user;
+    } catch (error) {
+      if (error.code === 401) {
+        console.warn("⚠️ User not logged in or session expired.");
+      } else {
+        console.error("❌ Appwrite service :: getCurrentUser :: error", error);
+      }
+      return null;
     }
+  }
 
-
-
-    //login ho eya nahi ho.
-
-    // Get current logged-in user
-    async getCurrentUser() {
-        try {
-            return await this.account.get();
-        } catch (error) {
-            console.log("Appwrite service :: getCurrentUser :: error", error);
-        }
-        return null;
+  // Logout user
+  async logout() {
+    try {
+      // Delete current session only
+      await this.account.deleteSession('current');
+      console.log("✅ User logged out successfully");
+    } catch (error) {
+      console.error("❌ Appwrite service :: logout :: error", error);
     }
-
-
-
-
-    // Logout
-    async logout() {
-        try {
-            await this.account.deleteSessions();
-        } catch (error) {
-            console.log("Appwrite service :: logout :: error", error);
-        }
-    }
+  }
 }
 
-
-
-
 const authService = new AuthService();
-//new kwyword use kara hain , its means ap sare constructor ko call kar neke kam kiya hajn ,used bhi karneka .
-
 export default authService;
